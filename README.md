@@ -6,9 +6,9 @@
 
 ❗**DMCA**: You can open an issue and we'll remove the content immediately.
 
-ℹ️: Some streams (Like Channel 4) may not work on players that do not support DRM, I recommend OTT TV (Android TV) or OTT Player (Android)
+ℹ️ Some streams (Like Channel 4) may not work on players that do not support DRM, I recommend OTT TV (Android TV) or OTT Player (Android)
 
-🕓EPG is included in the playlists
+🕓 EPG is included in the playlists
 
 **Long URL format:**  
 `https://raw.githubusercontent.com/matte-oss/iptv-ungeoblocked/main/countries/COUNTRY.m3u`  
