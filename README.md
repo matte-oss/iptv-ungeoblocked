@@ -8,6 +8,8 @@
 
 ℹ️: Some streams (Like Channel 4) may not workon players that do not support DRM, I recommend OTT TV (Android TV) or OTT Player (Android)
 
+🕓EPG is included in the playlists
+
 **Long URL format:**  
 `https://raw.githubusercontent.com/matte-oss/iptv-ungeoblocked/main/countries/COUNTRY.m3u`  
 *(Replace "COUNTRY" with the country code, e.g., UK, US, DE)*  
