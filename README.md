@@ -4,9 +4,9 @@
 
 🤝 **Contributions welcome!** Open a PR or an issue to propose new verified streams.  
 
-❗DMCA: You can open an issue and we'll remove the content immediately.
+❗**DMCA**: You can open an issue and we'll remove the content immediately.
 
-ℹ️: Some streams (Like Channel 4) may not workon players that do not support DRM, I recommend OTT TV (Android TV) or OTT Player (Android)
+ℹ️: Some streams (Like Channel 4) may not work on players that do not support DRM, I recommend OTT TV (Android TV) or OTT Player (Android)
 
 🕓EPG is included in the playlists
 
