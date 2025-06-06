@@ -11,6 +11,6 @@
 
 ### **Available Countries:**  
 
-🇬🇧 **United Kingdom**  
+### 🇬🇧 United Kingdom  
 🔗 **Short URL:** [https://bit.ly/ungeouk](https://bit.ly/ungeouk)  
-
+📺 **Channel List:** [View all UK channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/uk.md)  
