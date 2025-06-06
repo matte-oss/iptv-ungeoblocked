@@ -17,5 +17,5 @@ https://ilglobotv-live.akamaized.net/channels/RAIItaliaAustralia/Live.m3u8
 https://ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8
 #EXTINF:-1 tvg-id="Mediaset.Italia.-.Australia.e.Asia.it" tvg-name="Mediaset Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mediaset_Italia_%28TV_channel%29.png",Mediaset Italia
 https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
-#EXTINF:-1 tvg-id="TGCOM24.ca" tvg-name="Mediaset TGCOM24" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/1/1a/Mediaset_TGCom24.png/1920px-Mediaset_TGCom24.png",Mediaset TGCOM24
+#EXTINF:-1 tvg-id="TGCOM24.it" tvg-name="Mediaset TGCOM24" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/1/1a/Mediaset_TGCom24.png/1920px-Mediaset_TGCom24.png",Mediaset TGCOM24
 https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8  
