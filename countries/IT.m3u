@@ -1,0 +1,16 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="RAIItaliaSudAmerica" tvg-name="RAI Italia South America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",RAI Italia South America
+https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8
+
+#EXTINF:-1 tvg-id="RAIItaliaSudAfrica" tvg-name="RAI Italia South Africa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",RAI Italia South Africa
+https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8
+
+#EXTINF:-1 tvg-id="RAIItaliaAustralia" tvg-name="RAI Italia Australia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",RAI Italia Australia
+https://ilglobotv-live.akamaized.net/channels/RAIItaliaAustralia/Live.m3u8
+
+#EXTINF:-1 tvg-id="RAIWorldPremium" tvg-name="RAI World Premium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rai_World_Premium_-_Logo_2017.svg/1920px-Rai_World_Premium_-_Logo_2017.svg.png",RAI World Premium
+https://ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8
+
+#EXTINF:-1 tvg-id="MediasetItalia" tvg-name="Mediaset Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mediaset_Italia_%28TV_channel%29.png",Mediaset Italia
+https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
