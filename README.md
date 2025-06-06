@@ -1,9 +1,11 @@
-#Ungeoblocked IPTV
-🚫We don't accept paid channels and don't condone piracy in any way
-ℹ️We are open for contributions!, just open a PR or an issue providing the stream link.
+# 🌍 Ungeoblocked IPTV  
 
-Available countries:
-🇬🇧United Kingdom: 
-'''
+🚫 **Disclaimer:** We do not accept paid channels and do not support piracy in any form.  
+ℹ️ **Contributions welcome!** Open a PR or an issue to propose new verified streams.  
+
+### **Available Countries:**  
+
+🇬🇧 **United Kingdom**  
+```text
 https://raw.githubusercontent.com/matte-oss/iptv-ungeoblocked/refs/heads/main/countries/UK.m3u
-'''
+```  
