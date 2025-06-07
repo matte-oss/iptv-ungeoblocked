@@ -2,6 +2,7 @@
 # Italy🇮🇹 TV Channels List  
 📺 *FAST = Free Ad-Supported Streaming (may show waiting screens instead of ads)*  
 🔒 *DRM-protected streams require OTT Navigator*  
+🌍 *"Europe streams", as seen on satellites, might black out during trasmission of sports and some content"
 
 ---
 
