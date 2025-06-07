@@ -21,3 +21,5 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8  
 #EXTINF:-1 tvg-id="LA7.HD.it" tvg-name="La7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1280px-LA7_-_Logo_2011.svg.png",La7
 https://ilglobotv-live.akamaized.net/channels/La7Italia/Live.m3u8  
+#EXTINF:-1 tvg-id="Telenord.HD.it" tvg-name="Telenord" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a8/Telenord.png",Telenord
+https://64b16f23efbee.streamlock.net/telenord/telenord/playlist.m3u8  
