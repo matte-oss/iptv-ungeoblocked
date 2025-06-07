@@ -42,3 +42,8 @@
 - **La7** 🌍
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1280px-LA7_-_Logo_2011.svg.png" width="128">  
+
+
+- **Telenord** ❓
+
+  <img src="https://upload.wikimedia.org/wikipedia/it/a/a8/Telenord.png" width="128">  
