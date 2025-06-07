@@ -6,13 +6,13 @@
 
 ---
 
-- **RAI Uno**  
+- **RAI Uno**🌍
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1351px-Rai_1_-_Logo_2016.svg.png" width="128">
 
-- **RAI Due**  
+- **RAI Due**🌍 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1920px-Rai_2_-_Logo_2016.svg.png" width="128">
 
-- **RAI Tre**  
+- **RAI Tre**🌍  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png" width="128">
 
 - **Rai News 24**  
