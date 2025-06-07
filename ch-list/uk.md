@@ -25,6 +25,9 @@
 - **BBC Earth** 📺  
   <img src="https://canvas-lb.tubitv.com/opts/TGE1ln0I_gLSwg==/630f09e9-a354-4d28-a952-2f5c75e09815/CHgQeDoFMS4xLjZAAQ==" width="128">
 
+- **BBC Home & Garden** 📺  
+  <img src="https://images.pluto.tv/channels/5fb5836fe745b600070fc743/colorLogoPNG.png" width="128">
+  
 - **BBC Food** 📺  
   <img src="https://images.pluto.tv/channels/5fb5844bf5514d0007945bda/colorLogoPNG.png" width="128">
 
