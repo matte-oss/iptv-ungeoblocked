@@ -12,7 +12,7 @@
 
 **Long URL format:**  
 `https://raw.githubusercontent.com/matte-oss/iptv-ungeoblocked/main/countries/COUNTRY.m3u`  
-*(Replace "COUNTRY" with the country code, e.g., UK, US, DE)*  
+*(Replace "COUNTRY" with the country code, e.g., UK, IT,...)*  
 
 ### **Available Countries:**  
 
