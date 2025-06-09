@@ -49,5 +49,27 @@
 - **4seven** 🔒  
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/4seven_logo_2018.svg/128px-4seven_logo_2018.svg.png" width="128">
 
-- **E4** 🔒  
+- **E4** 🔒
+  
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/E4_logo_2018.svg/128px-E4_logo_2018.svg.png" width="128">
+
+
+- **ITV2**
+  
+  <img
+src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1280px-ITV2_logo_2022.svg.png" width="128">
+
+- **ITV3**
+  
+  <img
+src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ITV3_logo_2022.svg/1280px-ITV3_logo_2022.svg.png" width="128">
+
+- **ITV4**
+  
+  <img
+src="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1280px-ITV4_logo_%282022%29.svg.png" width="128">
+
+- **Channel 5**
+  
+  <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Channel_5_2025.svg/500px-Channel_5_2025.svg.png" width="128">
