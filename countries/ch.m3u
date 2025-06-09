@@ -1,0 +1,3 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
+#EXTINF:-1 tvg-id="RSI.La.1.ch" tvg-name="Rsi la 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1280px-RSI_La_1_2012.svg.png",Rsi la 1
+https://cachehsi1a.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
