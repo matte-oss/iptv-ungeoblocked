@@ -5,7 +5,7 @@ https://cachehsi1a.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 https://cachehsi1a.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
 #EXTINF:-1 tvg-id="SRF.1.ch" tvg-name="SRF 1" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/0/07/SRF_1-Logo.svg/1280px-SRF_1-Logo.svg.png",SRF 1
 https://cachehsi1a.netplus.ch/live/eds/srf1hd/browser-dash/srf1hd.mpd
-#EXTINF:-1 tvg-id="SRF.2.ch" tvg-name="SRF 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Logo_SRF_zwei.svg/1280px-Logo_SRF_zwei.svg.png",SRF 2
+#EXTINF:-1 tvg-id="SRF.zwei.ch" tvg-name="SRF Zwei" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Logo_SRF_zwei.svg/1280px-Logo_SRF_zwei.svg.png",SRF Zwei
 https://cachehsi1a.netplus.ch/live/eds/srf2hd/browser-dash/srf2hd.mpd
 #EXTINF:-1 tvg-id="SRF.info.ch" tvg-name="SRF Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/1280px-Logo_SRF_info.svg.png",SRF Info
 https://cachehsi1a.netplus.ch/live/eds/srfinfo/browser-dash/srfinfo.mpd
