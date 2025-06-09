@@ -25,3 +25,8 @@
 🔗 **Short URL:** [https://bit.ly/ungeoit](https://bit.ly/ungeoit)
 
 📺 **Channel List:** [View all italian channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/it.md)  
+
+### 🇨🇭 Switzerland
+🔗 **Short URL:** [https://bit.ly/ungeoch1](https://bit.ly/ungeoch1)
+
+📺 **Channel List:** [View all italian channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/ch.md)  
