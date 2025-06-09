@@ -45,5 +45,5 @@ https://cachehsi1a.netplus.ch/live/eds/itv2/browser-dash/itv2.mpd
 https://cachehsi1a.netplus.ch/live/eds/itv3/browser-dash/itv3.mpd
 #EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-name="ITV4" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1280px-ITV4_logo_%282022%29.svg.png",ITV4
 https://cachehsi1a.netplus.ch/live/eds/itv4/browser-dash/itv4.mpd
-#EXTINF:-1 tvg-id="Channel5.HD.uk" tvg-name="Channel 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Channel_5_2025.svg/1280px-Channel_5_2025.svg.png",Channel 5
+#EXTINF:-1 tvg-id="Channel5.HD.uk" tvg-name="Channel 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Channel_5_2025.svg/500px-Channel_5_2025.svg.png",Channel 5
 https://cachehsi1a.netplus.ch/live/eds/channel5/browser-dash/channel5.mpd
