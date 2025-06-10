@@ -23,4 +23,13 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Logo_SRF_zwei.svg/1280px-Logo_SRF_zwei.svg.png" width="128">  
 
 - **SRF Info** 🇩🇪  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/1280px-Logo_SRF_info.svg.png" width="128">  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/1280px-Logo_SRF_info.svg.png" width="128">
+
+- **RTS 1** 🇫🇷
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTS_1_Logo_2023.svg/1280px-RTS_1_Logo_2023.svg.png" width="128">
+
+
+- **RTS 2** 🇫🇷
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RTS_2_Logo_2023.svg/1280px-RTS_2_Logo_2023.svg.png" width="128">  
