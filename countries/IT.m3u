@@ -31,3 +31,5 @@ https://cachehsi1a.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
 https://cachehsi1a.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd  
 #EXTINF:-1 tvg-id="Italia1.HD.it" tvg-name="Italia 1" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/30/Logo_Italia_1.svg/1280px-Logo_Italia_1.svg.png",Italia 1
 https://cachehsi1a.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd  
+#EXTINF:-1 tvg-id="Rete4.HD.it" tvg-name="Rete 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1280px-Rete_4_-_Logo_2018.svg.png",Rete 4
+https://cachehsi1a.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd  
