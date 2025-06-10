@@ -47,3 +47,5 @@ https://cachehsi1a.netplus.ch/live/eds/itv3/browser-dash/itv3.mpd
 https://cachehsi1a.netplus.ch/live/eds/itv4/browser-dash/itv4.mpd
 #EXTINF:-1 tvg-id="Channel5.HD.uk" tvg-name="Channel 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Channel_5_2025.svg/500px-Channel_5_2025.svg.png",Channel 5
 https://cachehsi1a.netplus.ch/live/eds/channel5/browser-dash/channel5.mpd
+#EXTINF:-1 tvg-id="Skynews.uk" tvg-name="Sky News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/Sky-news-logo.png",Sky News
+https://cachehsi1a.netplus.ch/live/eds/skynews/browser-dash/skynews.mpd
