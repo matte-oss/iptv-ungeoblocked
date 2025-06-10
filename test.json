@@ -1,0 +1,33 @@
+{
+  "provider": {
+    "epg": "url/to/epg/xml.gz"
+  },
+  "categories": {
+    "main": {
+      "name": "General channels",
+      "name:es": "Generale"
+    },
+    "radio": {
+      "name": "Radio Stations",
+      "name:es": "Estaciones de radio"
+    }
+  },
+  "channels": [
+    {
+      "category": "main",
+      "name": "Sample Channel 1",
+      "name:es": "Spanish name of channel1",
+      "url": "url/to/channel/stream"
+    },
+    {
+      "category": "main",
+      "name": "Sample Channel 2",
+      "url": "url/to/channel/stream"
+    },
+    {
+      "category": "radio",
+      "name": "BBC Radio One",
+      "url": "https://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8"
+    }
+  ]
+}
