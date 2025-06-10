@@ -11,3 +11,5 @@ https://cachehsi1a.netplus.ch/live/eds/srf2hd/browser-dash/srf2hd.mpd
 https://cachehsi1a.netplus.ch/live/eds/srfinfo/browser-dash/srfinfo.mpd
 #EXTINF:-1 tvg-id="RTS.un.ch" tvg-name="RTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTS_1_Logo_2023.svg/1280px-RTS_1_Logo_2023.svg.png",RTS 1
 https://cachehsi1a.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd
+#EXTINF:-1 tvg-id="RTS.deux.ch" tvg-name="RTS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RTS_2_Logo_2023.svg/1280px-RTS_2_Logo_2023.svg.png",RTS 2
+https://cachehsi1a.netplus.ch/live/eds/rts2hd/browser-dash/rts2hd.mpd
