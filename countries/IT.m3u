@@ -24,4 +24,6 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 #EXTINF:-1 tvg-id="TGCom.it" tvg-name="Mediaset TGCOM24" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/1/1a/Mediaset_TGCom24.png/1920px-Mediaset_TGCom24.png",Mediaset TGCOM24
 https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8  
 #EXTINF:-1 tvg-id="LA7.HD.it" tvg-name="La7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1280px-LA7_-_Logo_2011.svg.png",La7
-https://ilglobotv-live.akamaized.net/channels/La7Italia/Live.m3u8  
+https://cachehsi1a.netplus.ch/live/eds/la7/browser-dash/la7.mpd  
+#EXTINF:-1 tvg-id="LA7d.HD.it" tvg-name="La7d" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/LA7d_%282024%29.svg/1280px-LA7d_%282024%29.svg.png",La7d
+https://cachehsi1a.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd  
