@@ -73,3 +73,8 @@ src="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.s
   
   <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Channel_5_2025.svg/500px-Channel_5_2025.svg.png" width="128">
+
+- **Sky News**
+  
+  <img
+src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Sky-news-logo.png" width="128">
