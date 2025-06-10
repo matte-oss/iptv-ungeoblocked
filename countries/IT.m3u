@@ -9,7 +9,7 @@ https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8
 https://cachehsi1a.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 #EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="RAI Scuola" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png",RAI Scuola
 https://cachehsi1a.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
-#EXTINF:-1 tvg-id="Rai.News.24.ca" tvg-name="RAI News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png",RAI News 24
+#EXTINF:-1 tvg-id="Rai.News.24.it" tvg-name="RAI News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png",RAI News 24
 https://ilglobotv-live.akamaized.net/channels/RAINews24/Live.m3u8
 #EXTINF:-1 tvg-id="Rai.Italia" tvg-name="RAI Italia South America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",RAI Italia South America
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8
@@ -25,5 +25,3 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8  
 #EXTINF:-1 tvg-id="LA7.HD.it" tvg-name="La7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1280px-LA7_-_Logo_2011.svg.png",La7
 https://ilglobotv-live.akamaized.net/channels/La7Italia/Live.m3u8  
-#EXTINF:-1 tvg-id="Telenord.HD.it" tvg-name="Telenord" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a8/Telenord.png",Telenord
-https://64b16f23efbee.streamlock.net/telenord/telenord/playlist.m3u8  
