@@ -18,16 +18,22 @@
 - **RAI Tre** 🌍  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png" width="128">  
 
+- **RAI Storia** 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png" width="128">
+
+- **RAI Scuola** 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png" width="128">
+  
 - **Rai News 24**  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png" width="128">  
 
-- **RAI Italia South America**  
+- **RAI Italia South America** ❓
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png" width="128">  
 
-- **RAI Italia Australia** 🗓️
+- **RAI Italia Australia** ❓
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png" width="128">  
 
-- **RAI Italia South Africa** 🗓️
+- **RAI Italia South Africa** ❓
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png" width="128">  
 
 - **RAI World Premium** ❓
@@ -39,11 +45,22 @@
 - **Mediaset TGCOM 24**  
   <img src="https://upload.wikimedia.org/wikipedia/it/thumb/1/1a/Mediaset_TGCom24.png/1920px-Mediaset_TGCom24.png" width="128">
 
-- **La7** 🌍
+- **La7** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1280px-LA7_-_Logo_2011.svg.png" width="128">  
 
+- **La7d** 
 
-- **Telenord** ❓
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/LA7d_%282024%29.svg/1280px-LA7d_%282024%29.svg.png" width="128">  
 
-  <img src="https://upload.wikimedia.org/wikipedia/it/a/a8/Telenord.png" width="128">  
+- **Canale 5** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1280px-Canale_5_-_2018_logo.svg.png" width="128">  
+
+- **Italia 1** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/it/thumb/3/30/Logo_Italia_1.svg/1280px-Logo_Italia_1.svg.png" width="128">  
+
+- **Rete 4** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1280px-Rete_4_-_Logo_2018.svg.png" width="128">  
