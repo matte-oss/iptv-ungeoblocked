@@ -29,3 +29,5 @@ https://cachehsi1a.netplus.ch/live/eds/la7/browser-dash/la7.mpd
 https://cachehsi1a.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd  
 #EXTINF:-1 tvg-id="Canale5.HD.it" tvg-name="Canale 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1280px-Canale_5_-_2018_logo.svg.png",Canale 5
 https://cachehsi1a.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd  
+#EXTINF:-1 tvg-id="Italia1.HD.it" tvg-name="Italia 1" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/30/Logo_Italia_1.svg/1280px-Logo_Italia_1.svg.png",Italia 1
+https://cachehsi1a.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd  
