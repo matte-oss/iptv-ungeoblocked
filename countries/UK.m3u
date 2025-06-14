@@ -60,7 +60,7 @@ https://lstn.lv/bbcradio.m3u8?station=bbc_radio_two&bitrate=320000
 #EXTINF:-1 tvg-id="BBCR3.uk" tvg-name="BBC Radio 3" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/BBC_Radio_3_2022.svg/1280px-BBC_Radio_3_2022.svg.png",BBC Radio 3
 https://lstn.lv/bbcradio.m3u8?station=bbc_radio_three&bitrate=320000
 #EXTINF:-1 tvg-id="BBCR4FM.uk" tvg-name="BBC Radio 4" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/BBC_Radio_4_2022.svg/1280px-BBC_Radio_4_2022.svg.png",BBC Radio 4
-https://lstn.lv/bbcradio.m3u8?station=bbc_radio_four&bitrate=320000
+https://lstn.lv/bbcradio.m3u8?station=bbc_radio_fourfm&bitrate=320000
 #EXTINF:-1 tvg-id="BBCR4EX.uk" tvg-name="BBC Radio 4 Extra" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BBC_Radio_4_Extra_logo_2022.svg/1280px-BBC_Radio_4_Extra_logo_2022.svg.png",BBC Radio 4 Extra
 https://lstn.lv/bbcradio.m3u8?station=bbc_radio_four_extra&bitrate=320000
 #EXTINF:-1 tvg-id="BBCR5L.uk" tvg-name="BBC Radio 5 Live" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/BBC_Radio_5_Live_2022.svg/1280px-BBC_Radio_5_Live_2022.svg.png",BBC Radio 5 Live
