@@ -63,3 +63,5 @@ https://lstn.lv/bbcradio.m3u8?station=bbc_radio_three&bitrate=320000
 https://lstn.lv/bbcradio.m3u8?station=bbc_radio_four&bitrate=320000
 #EXTINF:-1 tvg-id="BBC.R4.Ex.uk" tvg-name="BBC Radio 4 Extra" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BBC_Radio_4_Extra_logo_2022.svg/1280px-BBC_Radio_4_Extra_logo_2022.svg.png",BBC Radio 4 Extra
 https://lstn.lv/bbcradio.m3u8?station=bbc_radio_four_extra&bitrate=320000
+#EXTINF:-1 tvg-id="BBC.R5L.uk" tvg-name="BBC Radio 5 Live" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/BBC_Radio_5_Live_2022.svg/1280px-BBC_Radio_5_Live_2022.svg.png",BBC Radio 5 Live
+https://lstn.lv/bbcradio.m3u8?station=bbc_radio_five_live&bitrate=320000
