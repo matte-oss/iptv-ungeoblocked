@@ -10,9 +10,16 @@
 
 🕓 EPG is (mostly) included in the playlists
 
-**Long URL format:**  
+<details>
+<summary>Long URL format</summary>
+
+
 `https://raw.githubusercontent.com/matte-oss/iptv-ungeoblocked/main/countries/COUNTRY.m3u`  
 *(Replace "COUNTRY" with the country code, e.g., UK, IT,...)*  
+</details>
+
+### **How to Use:**  
+Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readme-ov-file#apps) and enter the short URL of the desired country as an M3U playlist.  
 
 ### **Available Countries:**  
 
