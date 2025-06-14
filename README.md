@@ -19,7 +19,9 @@
 </details>
 
 ### **How to Use:**  
-Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readme-ov-file#apps) and enter the short URL of the desired country as an M3U playlist.  
+Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readme-ov-file#apps) of your choice and enter the short URL of the desired country as an M3U playlist.  
+
+*Note: some channels (e.g, Channel 4) require an IPTV player that supports DRM*
 
 ### **Available Countries:**  
 
