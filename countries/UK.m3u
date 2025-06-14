@@ -51,5 +51,9 @@ https://cachehsi1a.netplus.ch/live/eds/channel5/browser-dash/channel5.mpd
 https://cachehsi1a.netplus.ch/live/eds/skynews/browser-dash/skynews.mpd
 #EXTINF:-1 tvg-id="BBC.R1.uk" tvg-name="BBC Radio 1" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/BBC_Radio_1_2021.svg/1280px-BBC_Radio_1_2021.svg.png",BBC Radio 1
 https://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
-#EXTINF:-1 tvg-id="BBC.R1xtra.uk" tvg-name="BBC Radio 1Xtra" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BBC_Radio_1Xtra_2022.svg/1280px-BBC_Radio_1Xtra_2022.svg.png",BBC Radio 1Xtra
+#EXTINF:-1 tvg-id="BBC.R1X.uk" tvg-name="BBC Radio 1Xtra" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BBC_Radio_1Xtra_2022.svg/1280px-BBC_Radio_1Xtra_2022.svg.png",BBC Radio 1Xtra
 https://as-hls-ww-live.akamaized.net/pool_92079267/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%3d96000.norewind.m3u8
+#EXTINF:-1 tvg-id="BBC.R1D.uk" tvg-name="BBC Radio 1Dance" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/BBC_Radio_1_Dance_2022.svg/1280px-BBC_Radio_1_Dance_2022.svg.png",BBC Radio 1Dance
+https://lstn.lv/bbcradio.m3u8?station=bbc_radio_one_dance&bitrate=320000
+#EXTINF:-1 tvg-id="BBC.R2.uk" tvg-name="BBC Radio 2" type="radio" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/BBC_Radio_2_2022.svg/1280px-BBC_Radio_2_2022.svg.png",BBC Radio 2
+https://lstn.lv/bbcradio.m3u8?station=bbc_radio_two&bitrate=320000
