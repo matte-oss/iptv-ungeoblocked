@@ -23,9 +23,6 @@
 - **BBC News**  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/128px-BBC_News_2022_%28Alt%29.svg.png" width="128">
 
-- **BBC America**   
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BBC_America_logo_2021.svg/128px-BBC_America_logo_2021.svg.png" width="128">
-
 - **BBC Earth** 📺  
   <img src="https://canvas-lb.tubitv.com/opts/TGE1ln0I_gLSwg==/630f09e9-a354-4d28-a952-2f5c75e09815/CHgQeDoFMS4xLjZAAQ==" width="128">
 
