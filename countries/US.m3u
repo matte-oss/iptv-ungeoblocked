@@ -1,19 +1,15 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz"
-
 #EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-name="WCBS 2 New York (CBS)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CBS_New_York_logo.svg/1280px-CBS_New_York_logo.svg.png",WCBS 2 New York (CBS)
 https://tvpass.org/live/WCBSDT1/hd
-
 #EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-name="WNBC 4 New York (NBC)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/WNBC_2023.svg/1280px-WNBC_2023.svg.png",WNBC 4 New York (NBC)
 https://tvpass.org/live/WNBCDT1/hd
-
 #EXTINF:-1 tvg-id="FOX.(WNYW).New.York,.NY.us" tvg-name="WNYW 5 New York (FOX)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fts-new-york-a.svg/1280px-Fts-new-york-a.svg.png",WNYW 5 New York (FOX)
 https://tvpass.org/live/WNYWDT1/hd
-
 #EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-name="WABC 7 New York (ABC)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WABC_TV_New_2021.svg/1280px-WABC_TV_New_2021.svg.png",WABC 7 New York (ABC)
 https://tvpass.org/live/WABCDT1/hd
-
 #EXTINF:-1 tvg-id="WPIX.New.York.(SUPERSTATION).us" tvg-name="WPIX 11 New York (CW)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PIX11_2017.svg/1280px-PIX11_2017.svg.png",WPIX 11 New York (CW)
 https://tvpass.org/live/WPIX/hd
-
 #EXTINF:-1 tvg-id="PBS.(WNET).New.York,.NY.us" tvg-name="WNET 13 New York (PBS)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WNET_Thirteen_2022_logo.svg/1280px-WNET_Thirteen_2022_logo.svg.png",WNET 13 New York (PBS)
 https://tvpass.org/live/WNET/hd
+#EXTINF:-1 tvg-id="BBC.America.-.East.us" tvg-name="BBC America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BBC_America_logo_2021.svg/1280px-BBC_America_logo_2021.svg.png",BBC America
+https://dvrfl04.tulix.tv/teleup-bbca/index.m3u8
