@@ -41,6 +41,6 @@ Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readm
 📺 **Channel List:** [View all swiss channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/ch.md)  
 
 ### 🇺🇸 United States
-🔗 **Short URL:** [https://bit.ly/ungeous](https://bit.ly/ungeous)
+🔗 **Short URL:** [https://bit.ly/ungeous1](https://bit.ly/ungeous1)
 
 📺 **Channel List:** [View all american channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/us.md)  
