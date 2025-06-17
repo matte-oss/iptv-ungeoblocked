@@ -26,21 +26,21 @@ Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readm
 ### **Available Countries:**  
 
 ### 🇬🇧 United Kingdom  
-🔗 **Short URL:** [https://bit.ly/ungeouk](https://bit.ly/ungeouk)  
+🔗 **Short URL:** [https://tinyurl.com/ungeouk](https://tinyurl.com/ungeouk)  
 
 📺 **Channel List:** [View all british channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/uk.md)  
 
 ### 🇮🇹 Italy
-🔗 **Short URL:** [https://bit.ly/ungeoit](https://bit.ly/ungeoit)
+🔗 **Short URL:** [https://tinyurl.com/ungeoit](https://tinyurl.com/ungeoit)
 
 📺 **Channel List:** [View all italian channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/it.md)  
 
 ### 🇨🇭 Switzerland
-🔗 **Short URL:** [https://bit.ly/ungeoch1](https://bit.ly/ungeoch1)
+🔗 **Short URL:** [https://tinyurl.com/ungeoch](https://tinyurl.com/ungeoch)
 
 📺 **Channel List:** [View all swiss channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/ch.md)  
 
 ### 🇺🇸 United States
-🔗 **Short URL:** [https://bit.ly/ungeous1](https://bit.ly/ungeous1)
+🔗 **Short URL:** [https://tinyurl.com/ungeous](https://tinyurl.com/ungeous)
 
 📺 **Channel List:** [View all american channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/us.md)  
