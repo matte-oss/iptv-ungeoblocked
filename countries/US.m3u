@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz"
-#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-name="WCBS 2 New York (CBS)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CBS_New_York_logo.svg/1280px-CBS_New_York_logo.svg.png",WCBS 2 New York (CBS)
+#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-name="WCBS 2 New York (CBS)" tvg-logo="https://www.cbsnews.com/assets/show/newyork/logo-wide-transparent-500.svg",WCBS 2 New York (CBS)
 https://tvpass.org/live/WCBSDT1/hd
 #EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-name="WNBC 4 New York (NBC)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/WNBC_2023.svg/1280px-WNBC_2023.svg.png",WNBC 4 New York (NBC)
 https://tvpass.org/live/WNBCDT1/hd
