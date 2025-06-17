@@ -23,16 +23,3 @@
 
 - **WNET 13 New York (PBS)**  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WNET_Thirteen_2022_logo.svg/1280px-WNET_Thirteen_2022_logo.svg.png" width="128">
-
----
-
-## National Networks  
-
-- **CNN**  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/1280px-CNN_International_logo.svg.png" width="128">
-
-- **Fox News**  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/1280px-Fox_News_Channel_logo.svg.png" width="128">
-
-- **MSNBC**  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/MSNBC_2020_logo.svg/
