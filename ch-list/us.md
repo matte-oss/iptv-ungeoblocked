@@ -9,7 +9,7 @@
 
 - **WCBS 2 New York (CBS)**
   
-  <img src="https://www.cbsnews.com/assets/show/newyork/logo-wide-transparent-500.svg" width="128">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/WCBS-TV_logo_%282023%29.svg/1200px-WCBS-TV_logo_%282023%29.svg.png" width="128">
 
 - **WNBC 4 New York (NBC)**
   
