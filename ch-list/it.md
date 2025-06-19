@@ -80,3 +80,15 @@
 - **Rete 4** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1280px-Rete_4_-_Logo_2018.svg.png" width="128">  
+
+- **Nove** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nove_-_Logo_2017.svg/1280px-Nove_-_Logo_2017.svg.png" width="128">  
+
+- **DMAX** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/1280px-DMAX_-_Logo_2016.svg.png" width="128">  
+
+- **Food Network** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png" width="128">  
