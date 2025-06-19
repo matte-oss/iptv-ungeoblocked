@@ -9,38 +9,41 @@
 
 ---
 
-- **RAI 1** 🌍  
+- **Rai 1** 🌍  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1351px-Rai_1_-_Logo_2016.svg.png" width="128">  
 
-- **RAI 2** 🌍  
+- **Rai 2** 🌍  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1920px-Rai_2_-_Logo_2016.svg.png" width="128">  
 
-- **RAI 3** 🌍  
+- **Rai 3** 🌍  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png" width="128">  
 
-- **RAI Storia**
+- **Rai Storia**
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png" width="128">
 
-- **RAI Scuola**
+- **Rai Scuola**
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png" width="128">
   
 - **Rai News 24**  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png" width="128">  
 
-- **RAI Italia South America** ❓
+- **Rai Gulp**  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png" width="128">  
+
+- **Rai Italia South America** ❓
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png" width="128">  
 
-- **RAI Italia Australia** ❓
+- **Rai Italia Australia** ❓
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png" width="128">  
 
-- **RAI Italia South Africa** ❓
+- **Rai Italia South Africa** ❓
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png" width="128">  
 
-- **RAI World Premium** ❓
+- **Rai World Premium** ❓
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rai_World_Premium_-_Logo_2017.svg/1920px-Rai_World_Premium_-_Logo_2017.svg.png" width="128">  
 
