@@ -9,15 +9,15 @@
 
 ---
 
-- **Rai 1** 🌍  
+- **Rai 1** (TGR Lombardia)
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1351px-Rai_1_-_Logo_2016.svg.png" width="128">  
 
-- **Rai 2** 🌍  
+- **Rai 2** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1920px-Rai_2_-_Logo_2016.svg.png" width="128">  
 
-- **Rai 3** 🌍  
+- **Rai 3** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png" width="128">  
 
