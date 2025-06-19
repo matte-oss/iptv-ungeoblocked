@@ -33,8 +33,8 @@ https://cachehsi1a.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 https://cachehsi1a.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd  
 #EXTINF:-1 tvg-id="Rete4.HD.it" tvg-name="Rete 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1280px-Rete_4_-_Logo_2018.svg.png",Rete 4
 https://cachehsi1a.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd  
-#EXTINF:-1 tvg-id="Cielo.HD.it" tvg-name="Cielo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cielo_TV_logo_2013.svg/1280px-Cielo_TV_logo_2013.svg.png",Cielo
-https://cachehsi1a.netplus.ch/live/eds/cielo/browser-dash/cielo.mpd  
+#EXTINF:-1 tvg-id="Nove.HD.it" tvg-name="Nove" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nove_-_Logo_2017.svg/1280px-Nove_-_Logo_2017.svg.png",Nove
+https://cachehsi1a.netplus.ch/live/eds/nove/browser-dash/nove.mpd  
 #EXTINF:-1 tvg-id="Dmax.HD.it" tvg-name="DMAX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/1280px-DMAX_-_Logo_2016.svg.png",DMAX
 https://cachehsi1a.netplus.ch/live/eds/dmaxitalia/browser-dash/dmaxitalia.mpd  
 #EXTINF:-1 tvg-id="FoodNetwork.HD.it" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png",Food Network
