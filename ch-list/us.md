@@ -34,3 +34,7 @@
 - **BBC America**
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BBC_America_logo_2021.svg/128px-BBC_America_logo_2021.svg.png" width="128">
+
+- **BBC News (North America)** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/128px-BBC_News_2022_%28Alt%29.svg.png" width="128">
