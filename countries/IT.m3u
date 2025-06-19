@@ -11,7 +11,7 @@ https://cachehsi1a.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 https://cachehsi1a.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 #EXTINF:-1 tvg-id="Rai.News.24.ch" tvg-name="Rai News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png",Rai News 24
 https://ilglobotv-live.akamaized.net/channels/RAINews24/Live.m3u8
-#EXTINF:-1 tvg-id="Rai.Gulp.it" tvg-name="Rai Gulp tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png",Rai Gulp
+#EXTINF:-1 tvg-id="Rai.Gulp.it" tvg-name="Rai Gulp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png",Rai Gulp
 https://cachehsi1a.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
 #EXTINF:-1 tvg-id="Rai.Italia" tvg-name="Rai Italia South America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",Rai Italia South America
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8
