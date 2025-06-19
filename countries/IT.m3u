@@ -35,3 +35,5 @@ https://cachehsi1a.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 https://cachehsi1a.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd  
 #EXTINF:-1 tvg-id="Cielo.HD.it" tvg-name="Cielo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cielo_TV_logo_2013.svg/1280px-Cielo_TV_logo_2013.svg.png",Cielo
 https://cachehsi1a.netplus.ch/live/eds/cielo/browser-dash/cielo.mpd  
+#EXTINF:-1 tvg-id="Dmax.HD.it" tvg-name="DMAX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/1280px-DMAX_-_Logo_2016.svg.png",DMAX
+https://cachehsi1a.netplus.ch/live/eds/dmaxitalia/browser-dash/dmaxitalia.mpd  
