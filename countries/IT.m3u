@@ -37,3 +37,5 @@ https://cachehsi1a.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
 https://cachehsi1a.netplus.ch/live/eds/cielo/browser-dash/cielo.mpd  
 #EXTINF:-1 tvg-id="Dmax.HD.it" tvg-name="DMAX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/1280px-DMAX_-_Logo_2016.svg.png",DMAX
 https://cachehsi1a.netplus.ch/live/eds/dmaxitalia/browser-dash/dmaxitalia.mpd  
+#EXTINF:-1 tvg-id="FoodNetwork.HD.it" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png",Food Network
+https://cachehsi1a.netplus.ch/live/eds/foodnetwork/browser-dash/foodnetwork.mpd  
