@@ -44,8 +44,3 @@ Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readm
 🔗 **Short URL:** [https://tinyurl.com/ungeous](https://tinyurl.com/ungeous)
 
 📺 **Channel List:** [View all american channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/us.md)  
-
-### 🇺🇳 World
-🔗 **Short URL:** [https://tinyurl.com/ungeoun](https://tinyurl.com/ungeoun)
-
-📺 **Channel List:** [View all worldwide channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/un.md)  
