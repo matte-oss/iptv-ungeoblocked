@@ -1,23 +1,25 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
-#EXTINF:-1 tvg-id="Rai1.it" tvg-name="RAI 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1351px-Rai_1_-_Logo_2016.svg.png",RAI 1
+#EXTINF:-1 tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1351px-Rai_1_-_Logo_2016.svg.png",Rai 1
 https://cachehsi1a.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
-#EXTINF:-1 tvg-id="Rai2.it" tvg-name="RAI 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1920px-Rai_2_-_Logo_2016.svg.png",RAI 2
+#EXTINF:-1 tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1920px-Rai_2_-_Logo_2016.svg.png",Rai 2
 https://cachehsi1a.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
-#EXTINF:-1 tvg-id="Rai3.it" tvg-name="RAI 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png",RAI 3
+#EXTINF:-1 tvg-id="Rai3.it" tvg-name="Rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png",Rai 3
 https://cachehsi1a.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
-#EXTINF:-1 tvg-id="RaiStoria.it" tvg-name="RAI Storia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png",RAI Storia
+#EXTINF:-1 tvg-id="RaiStoria.it" tvg-name="Rai Storia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png",Rai Storia
 https://cachehsi1a.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
-#EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="RAI Scuola" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png",RAI Scuola
+#EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="Rai Scuola" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png",Rai Scuola
 https://cachehsi1a.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
-#EXTINF:-1 tvg-id="Rai.News.24.it" tvg-name="RAI News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png",RAI News 24
+#EXTINF:-1 tvg-id="Rai.News.24.it" tvg-name="Rai News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png",Rai News 24
 https://ilglobotv-live.akamaized.net/channels/RAINews24/Live.m3u8
-#EXTINF:-1 tvg-id="Rai.Italia" tvg-name="RAI Italia South America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",RAI Italia South America
+#EXTINF:-1 tvg-id="Rai.Gulp.it" tvg-name="Rai Gulp tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png",Rai Gulp
+https://cachehsi1a.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
+#EXTINF:-1 tvg-id="Rai.Italia" tvg-name="Rai Italia South America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",Rai Italia South America
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8
-#EXTINF:-1 tvg-id="RAI.Italia" tvg-name="RAI Italia South Africa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",RAI Italia South Africa
+#EXTINF:-1 tvg-id="RAI.Italia" tvg-name="Rai Italia South Africa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",Rai Italia South Africa
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8
-#EXTINF:-1 tvg-id="RAII.Italia" tvg-name="RAI Italia Australia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",RAI Italia Australia
+#EXTINF:-1 tvg-id="RAII.Italia" tvg-name="Rai Italia Australia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",Rai Italia Australia
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaAustralia/Live.m3u8
-#EXTINF:-1 tvg-id="RAI.World.Premium.(RAIPR).us" tvg-name="RAI World Premium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rai_World_Premium_-_Logo_2017.svg/1920px-Rai_World_Premium_-_Logo_2017.svg.png",RAI World Premium
+#EXTINF:-1 tvg-id="RAI.World.Premium.(RAIPR).us" tvg-name="Rai World Premium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rai_World_Premium_-_Logo_2017.svg/1920px-Rai_World_Premium_-_Logo_2017.svg.png",Rai World Premium
 https://ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8
 #EXTINF:-1 tvg-id="Mediaset.Italia.-.Australia.e.Asia.it" tvg-name="Mediaset Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mediaset_Italia_%28TV_channel%29.png",Mediaset Italia
 https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
