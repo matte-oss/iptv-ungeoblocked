@@ -14,7 +14,7 @@
 1) `https://cachehsi1a.netplus.ch/live/eds/bbc3cbbc/browser-dash/bbc3cbbc.mpd` 
 
 ### **BBC 4**  
-1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies` 
+1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies.mpd` 
 
 ---
 
