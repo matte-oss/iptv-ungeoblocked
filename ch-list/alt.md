@@ -15,3 +15,6 @@
 
 ### **Rai 3**  
 1) `https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8` 🌍 
+
+### **La7**  
+1) `https://ilglobotv-live.akamaized.net/channels/La7Italia/Live.m3u8` 🌍 
