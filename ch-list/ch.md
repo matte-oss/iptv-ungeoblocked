@@ -29,7 +29,10 @@
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTS_1_Logo_2023.svg/1280px-RTS_1_Logo_2023.svg.png" width="128">
 
-
 - **RTS 2** 🇫🇷
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RTS_2_Logo_2023.svg/1280px-RTS_2_Logo_2023.svg.png" width="128">  
+
+- **RTS Info** 🇫🇷
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/RTS_Info_Logo_2023.svg/1024px-RTS_Info_Logo_2023.svg.png" width="128">  
