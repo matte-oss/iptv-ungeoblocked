@@ -17,10 +17,6 @@
 ### **BBC 4/CBEEBIES**  
 1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies.mpd` 2️⃣
 
-### **BBC 4/CBEEBIES**  
-1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies.mpd` 2️⃣
-
-
 ### **Channel 4**  
 1)  `https://cachehsi1a.netplus.ch/live/eds/channel4/browser-dash/channel4.mpd`
 
