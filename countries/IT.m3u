@@ -41,7 +41,7 @@ https://cachehsi1a.netplus.ch/live/eds/nove/browser-dash/nove.mpd
 https://cachehsi1a.netplus.ch/live/eds/dmaxitalia/browser-dash/dmaxitalia.mpd  
 #EXTINF:-1 tvg-id="FoodNetwork.HD.it" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png",Food Network
 https://cachehsi1a.netplus.ch/live/eds/foodnetwork/browser-dash/foodnetwork.mpd  
-#EXTINF:-1 tvg-id="San.Marino.RTV.it" tvg-name="San Marino RTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/San_Marino_RTV_logo_2021.png/1200px-San_Marino_RTV_logo_2021.png",San Marino RTV
+#EXTINF:-1 tvg-id="San.Marino.RTV.it" tvg-name="San Marino RTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/San_Marino_RTV_logo_2025.png",San Marino RTV
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="San.Marino.RTV.sport.it" tvg-name="San Marino RTV Sport" tvg-logo="https://i.imgur.com/1bdKsMn.png",San Marino RTV Sport
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
