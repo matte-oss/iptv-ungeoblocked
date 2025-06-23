@@ -12,10 +12,10 @@
 1) `https://cachehsi1a.netplus.ch/live/eds/bbc2/browser-dash/bbc2.mpd`  
 
 ### **BBC 3/CBBC**  
-1) `https://cachehsi1a.netplus.ch/live/eds/bbc3cbbc/browser-dash/bbc3cbbc.mpd` 
+1) `https://cachehsi1a.netplus.ch/live/eds/bbc3cbbc/browser-dash/bbc3cbbc.mpd` 2️⃣
 
 ### **BBC 4/CBEEBIES**  
-1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies.mpd` 
+1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies.mpd` 2️⃣
 
 ---
 
