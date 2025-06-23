@@ -9,11 +9,11 @@
 
 ## **🇮🇹 Italy**  
 
-### **Rai 1**  
-1) `https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8`  
+### **Rai 1** 
+1) `https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8` 🌍
 
 ### **Rai 2**  
-1) `https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8`  
+1) `https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8` 🌍 
 
 ### **Rai 3**  
-1) `https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8`  
+1) `https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8` 🌍 
