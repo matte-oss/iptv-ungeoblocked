@@ -2,8 +2,6 @@
 📺 *FAST = Free Ad-Supported Streaming (may show waiting screens instead of ads)*  
 🔒 *DRM-protected streams require OTT Navigator*  
 🌍 *"Europe streams" (satellite feeds) may black out during sports or restricted content*  
-🗓️ *Currently testing epg, may/may not work*  
-❓ *Epg not available*  
 
 ---
 
