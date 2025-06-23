@@ -17,6 +17,18 @@
 ### **BBC 4/CBEEBIES**  
 1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies.mpd` 2️⃣
 
+### **BBC 4/CBEEBIES**  
+1)  `https://cachehsi1a.netplus.ch/live/eds/bbc4cbeebies/browser-dash/bbc4cbeebies.mpd` 2️⃣
+
+
+### **Channel 4**  
+1)  `https://cachehsi1a.netplus.ch/live/eds/channel4/browser-dash/channel4.mpd`
+
+### **Film4**  
+1)  `https://cachehsi1a.netplus.ch/live/eds/film4/browser-dash/film4.mpd`
+
+### **More4**  
+1)  `https://cachehsi1a.netplus.ch/live/eds/more4/browser-dash/more4.mpd`
 ---
 
 ## **🇮🇹 Italy**  
