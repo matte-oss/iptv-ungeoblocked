@@ -19,7 +19,7 @@
 </details>
 
 ### **🔍Help us find ITV1!**  
-More info here: https://github.com/matte-oss/iptv-ungeoblocked/discussions/2
+More infos here: https://github.com/matte-oss/iptv-ungeoblocked/discussions/2
 
 ### **How to Use:**  
 Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readme-ov-file#apps) of your choice and enter the short URL of the desired country below as an M3U playlist.  
