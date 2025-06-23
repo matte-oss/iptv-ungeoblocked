@@ -1,4 +1,4 @@
-# 🌍 Ungeoblocked IPTV  
+ # 🌍 Ungeoblocked IPTV  
 
 🚫 **Disclaimer:** We do not accept paid channels and do not support piracy in any form.  
 
@@ -43,4 +43,9 @@ Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readm
 ### 🇺🇸 United States
 🔗 **Short URL:** [https://tinyurl.com/ungeous](https://tinyurl.com/ungeous)
 
-📺 **Channel List:** [View all american channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/us.md)  
+📺 **Channel List:** [View all american channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/us.md) 
+
+
+### 🇺🇳 Alternate streams
+
+📺 **Channel List:** [View all alternate streams](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/alt.md) 
