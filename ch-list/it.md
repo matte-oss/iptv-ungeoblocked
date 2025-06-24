@@ -93,6 +93,10 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png" width="128">  
 
+- **Food Network** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tv2000_-_Logo_2022.svg/1280px-Tv2000_-_Logo_2022.svg.png" width="128">  
+  
 - **San Marino RTV** 🇸🇲
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/San_Marino_RTV_logo_2025.png" width="128">  
