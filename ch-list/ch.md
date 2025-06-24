@@ -33,6 +33,6 @@
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RTS_2_Logo_2023.svg/1280px-RTS_2_Logo_2023.svg.png" width="128">  
 
-- **RTS Info** 🇫🇷
+- **RTS Info** 🇫🇷 ❓
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/RTS_Info_Logo_2023.svg/1024px-RTS_Info_Logo_2023.svg.png" width="128">  
