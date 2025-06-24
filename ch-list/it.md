@@ -57,6 +57,18 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rai_World_Premium_-_Logo_2017.svg/1920px-Rai_World_Premium_-_Logo_2017.svg.png" width="128">  
 
+- **Boing** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/it/b/b2/Boing_logo_2020.png" width="128">  
+
+- **Cartoonito** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/1280px-Cartoonito_-_Logo_2021.svg.png" width="128">  
+
+- **Super!** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Super%21_logo_2025.png" width="128">  
+
 - **Mediaset Italia**  
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mediaset_Italia_%28TV_channel%29.png" width="128">  
