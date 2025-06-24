@@ -5,6 +5,8 @@ https://cachehsi1a.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 https://cachehsi1a.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 #EXTINF:-1 tvg-id="Rai3.it" tvg-name="Rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png",Rai 3
 https://cachehsi1a.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
+#EXTINF:-1 tvg-id="RaiSport.it" tvg-name="Rai Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rai_Sport_-_Logo_2022.svg/1280px-Rai_Sport_-_Logo_2022.svg.png",Rai Sport
+https://cachehsi1a.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 #EXTINF:-1 tvg-id="RaiStoria.it" tvg-name="Rai Storia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png",Rai Storia
 https://cachehsi1a.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 #EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="Rai Scuola" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png",Rai Scuola
