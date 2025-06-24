@@ -15,6 +15,8 @@ https://cachehsi1a.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 https://ilglobotv-live.akamaized.net/channels/RAINews24/Live.m3u8
 #EXTINF:-1 tvg-id="Rai.Gulp.it" tvg-name="Rai Gulp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png",Rai Gulp
 https://cachehsi1a.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
+#EXTINF:-1 tvg-id="Rai.Yoyo.it" tvg-name="Rai Yoyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rai_Yoyo_-_Logo_2017.svg/1280px-Rai_Yoyo_-_Logo_2017.svg.png",Rai Yoyo
+http://188.60.179.180:8000/play/xxRaiYoyo
 #EXTINF:-1 tvg-id="RAI.Italia" tvg-name="Rai Italia South America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",Rai Italia South America
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8
 #EXTINF:-1 tvg-id="RAI.Italia" tvg-name="Rai Italia South Africa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",Rai Italia South Africa
