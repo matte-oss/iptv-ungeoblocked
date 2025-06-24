@@ -21,6 +21,10 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png" width="128">  
 
+- **Rai Sport**
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rai_Sport_-_Logo_2022.svg/1280px-Rai_Sport_-_Logo_2022.svg.png" width="128">  
+
 - **Rai Storia**
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png" width="128">
