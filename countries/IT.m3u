@@ -43,6 +43,8 @@ https://cachehsi1a.netplus.ch/live/eds/nove/browser-dash/nove.mpd
 https://cachehsi1a.netplus.ch/live/eds/dmaxitalia/browser-dash/dmaxitalia.mpd  
 #EXTINF:-1 tvg-id="FoodNetwork.HD.it" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png",Food Network
 https://cachehsi1a.netplus.ch/live/eds/foodnetwork/browser-dash/foodnetwork.mpd  
+#EXTINF:-1 tvg-id=Radio.Italia.TV.HD.it" tvg-name="Radio Italia TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radio_Italia_logo_%282020%29.svg/1280px-Radio_Italia_logo_%282020%29.svg.png",Radio Italia Tv
+https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8  
 #EXTINF:-1 tvg-id="TV2000.it.it" tvg-name="TV2000" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tv2000_-_Logo_2022.svg/1280px-Tv2000_-_Logo_2022.svg.png",TV2000
 https://hls.live2.meride.tv/hls/live/2028947/pu934tjb/hls_1_3000/chunklist.m3u8  
 #EXTINF:-1 tvg-id="San.Marino.RTV.it" tvg-name="San Marino RTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/San_Marino_RTV_logo_2025.png",San Marino RTV
