@@ -6,7 +6,7 @@
 🌍 *"Europe streams" (satellite feeds) may black out during sports or restricted content*  
 🗓️ *Currently testing epg, may/may not work*  
 ❓ *Epg not available*  
-#️⃣ LCN source: https://www.mimit.gov.it/images/stories/documenti/LCN_Nazionali_gen_2024.pdf
+
 ---
 
 - **Rai 1**
