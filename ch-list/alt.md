@@ -43,3 +43,6 @@
 
 ### **DMAX**  
 1) `https://d1kirxefyktddx.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8` 
+
+### **Food Network**  
+1) `https://dlv0tnsho08fc.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8` 
