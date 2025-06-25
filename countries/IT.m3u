@@ -55,6 +55,8 @@ https://cachehsi1a.netplus.ch/live/eds/dmaxitalia/browser-dash/dmaxitalia.mpd
 https://d3k8z7jdiq6btv.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="Real.Time.it" tvg-name="Real Time" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Real_Time_logo.svg/1280px-Real_Time_logo.svg.png",Real Time
 https://dpe9o84j8ho51.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-id="HGTV.it" tvg-name="HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/HGTV_logo.svg/1280px-HGTV_logo.svg.png",HGTV
+https://dncwa2a3o9ock.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="FoodNetwork.HD.it" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png",Food Network
 https://cachehsi1a.netplus.ch/live/eds/foodnetwork/browser-dash/foodnetwork.mpd  
 #EXTINF:-1 tvg-id="Radio.Italia.TV.HD.it" tvg-name="Radio Italia TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radio_Italia_logo_%282020%29.svg/1280px-Radio_Italia_logo_%282020%29.svg.png",Radio Italia TV
