@@ -40,3 +40,6 @@
 
 ### **La7**  
 1) `https://ilglobotv-live.akamaized.net/channels/La7Italia/Live.m3u8` 🌍 
+
+### **DMAX**  
+1) `https://d1kirxefyktddx.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8` 
