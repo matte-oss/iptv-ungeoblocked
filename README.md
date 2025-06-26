@@ -18,7 +18,7 @@
 *(Replace "COUNTRY" with the country code, e.g., UK, IT,...)*  
 </details>
 
-### **🔍Help us find ITV1!**  
+### **🔍Help us find ITV1! (UK)**  
 More infos here: https://github.com/matte-oss/iptv-ungeoblocked/discussions/2
 
 ### **How to Use:**  
