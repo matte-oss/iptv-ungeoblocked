@@ -1,5 +1,3 @@
-
-
 # **Italy🇮🇹 TV Channels List**  
 📺 *FAST = Free Ad-Supported Streaming (may show waiting screens instead of ads)*  
 🔒 *DRM-protected streams require OTT Navigator*  
@@ -57,6 +55,10 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png" width="128">  
 
+- **RTL 102.5 TV** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/1280px-RTL_102.5_logo.svg.png" width="128">  
+ 
 - **Warner TV** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1280px-Warner_TV_Italy.svg.png" width="128">  
@@ -124,7 +126,15 @@
 - **Radio Italia TV** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radio_Italia_logo_%282020%29.svg/1280px-Radio_Italia_logo_%282020%29.svg.png" width="128">  
-  
+
+ - **RDS Social TV** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/RDS-Logo.png" width="128">  
+ 
+- **Radiofreccia TV** 
+
+  <img src="https://upload.wikimedia.org/wikipedia/it/thumb/f/f5/Logo_Radiofreccia.svg/1280px-Logo_Radiofreccia.svg.png" width="128">  
+ 
 - **Rai Italia South America** ❓
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png" width="128">  
