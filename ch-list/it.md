@@ -125,6 +125,10 @@
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Motor_Trend.svg/1280px-Motor_Trend.svg.png" width="128">
 
+- **SuperTennis**
+  
+  <img src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/1280px-SuperTennis_-_Logo_2016.svg.png" width="128">
+  
 - **Radio Italia TV** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radio_Italia_logo_%282020%29.svg/1280px-Radio_Italia_logo_%282020%29.svg.png" width="128">  
