@@ -57,6 +57,8 @@ https://cachehsi1a.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 https://cachehsi1a.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 #EXTINF:-1 tvg-id="Motor.Trend.it" tvg-name="MotorTrend" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Motor_Trend.svg/1280px-Motor_Trend.svg.png",MotorTrend
 https://d3k8z7jdiq6btv.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-id="SuperTennis.it" tvg-name="SuperTennis" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/1280px-SuperTennis_-_Logo_2016.svg.png",SuperTennis
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #EXTINF:-1 tvg-id="Radio.Italia.TV.HD.it" tvg-name="Radio Italia TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radio_Italia_logo_%282020%29.svg/1280px-Radio_Italia_logo_%282020%29.svg.png",Radio Italia TV
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8   
 #EXTINF:-1 tvg-id="RDS.Social.TV.HD.it" tvg-name="RDS Social TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/RDS-Logo.png",RDS Social TV
