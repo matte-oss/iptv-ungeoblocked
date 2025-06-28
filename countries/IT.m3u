@@ -25,7 +25,7 @@ https://dpe9o84j8ho51.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia
 https://dlv0tnsho08fc.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="RTL.102.5.HD.it" tvg-name="RTL 102.5 TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/1280px-RTL_102.5_logo.svg.png",RTL 102.5 TV
 https://streamcdnl1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
-#EXTINF:-1 tvg-id="WarnerTv.it" tvg-name="Warner TV Italy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1280px-Warner_TV_Italy.svg.png",Warner TV
+#EXTINF:-1 tvg-id="WarnerTv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1280px-Warner_TV_Italy.svg.png",Warner TV
 https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="Giallo.it" tvg-name="Giallo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/1280px-Giallo_-_Logo_2014.svg.png",Giallo
 https://d2pxu244r32qi9.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8
