@@ -136,6 +136,10 @@
  - **RDS Social TV** ❓
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/RDS-Logo.png" width="128">  
+  
+- **Radio Zeta TV** ❓
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Radio_Zeta_-_Logo_2020.svg/1280px-Radio_Zeta_-_Logo_2020.svg.png" width="128">  
  
 - **Radiofreccia TV** 
 
