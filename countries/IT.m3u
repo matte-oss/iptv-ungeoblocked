@@ -63,6 +63,8 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8   
 #EXTINF:-1 tvg-id="RDS.Social.TV.HD.it" tvg-name="RDS Social TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/RDS-Logo.png",RDS Social TV
 https://stream.rdstv.radio/index.m3u8
+#EXTINF:-1 tvg-id="Radio.Zeta.TV.HD.it" tvg-name="Radio Zeta TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Radio_Zeta_-_Logo_2020.svg/1280px-Radio_Zeta_-_Logo_2020.svg.png",Radio Zeta TV
+https://streamcdng13-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/chunklist_b3256000.m3u8
 #EXTINF:-1 tvg-id="RADIOFRECCIA.HD.it" tvg-name="Radiofreccia TV" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/f/f5/Logo_Radiofreccia.svg/1280px-Logo_Radiofreccia.svg.png",Radiofreccia TV
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
 #EXTINF:-1 tvg-id="RAI.Italia" tvg-name="Rai Italia South America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1920px-Rai_Italia_-_Logo_2017.svg.png",Rai Italia South America
