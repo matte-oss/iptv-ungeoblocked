@@ -9,3 +9,5 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://cachehsi1a.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
 #EXTINF:-1 tvg-id="ZDFneo.de" tvg-name="ZDFneo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ZDFneo_2017.svg/1280px-ZDFneo_2017.svg.png",ZDFneo
 https://cachehsi1a.netplus.ch/live/eds/zdfneohd/browser-dash/zdfneohd.mpd
+#EXTINF:-1 tvg-id="ZDFinfo.de" tvg-name="ZDFneo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/1280px-ZDFinfo_2011.svg.png",ZDFinfo
+https://cachehsi1a.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
