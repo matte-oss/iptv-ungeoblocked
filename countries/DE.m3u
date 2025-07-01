@@ -13,3 +13,5 @@ https://cachehsi1a.netplus.ch/live/eds/zdfneohd/browser-dash/zdfneohd.mpd
 https://cachehsi1a.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
 #EXTINF:-1 tvg-id="KIKA.de" tvg-name="KIKA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/1280px-Kika_2012.svg.png",KIKA
 https://cachehsi1a.netplus.ch/live/eds/kikahd/browser-dash/kikahd.mpd
+#EXTINF:-1 tvg-id="ARTE.de" tvg-name="Arte" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/620px-Arte_Logo_2017.svg.png",Arte
+https://cachehsi1a.netplus.ch/live/eds/artehd/browser-dash/artehd.mpd
