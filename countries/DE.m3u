@@ -17,3 +17,5 @@ https://cachehsi1a.netplus.ch/live/eds/kikahd/browser-dash/kikahd.mpd
 https://cachehsi1a.netplus.ch/live/eds/artehd/browser-dash/artehd.mpd
 #EXTINF:-1 tvg-id="3sat.de" tvg-name="3sat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/1280px-3sat_2019.svg.png",3sat
 https://cachehsi1a.netplus.ch/live/eds/3sathd/browser-dash/3sathd.mpd
+#EXTINF:-1 tvg-id="PHOENIX.de" tvg-name="Phoenix" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/1280px-Phoenix-logo-2018.svg.png",Phoenix
+https://cachehsi1a.netplus.ch/live/eds/phoenixhd/browser-dash/phonenixhd.mpd
