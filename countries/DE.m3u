@@ -5,6 +5,12 @@ https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tagesschau24.de" tvg-name="Tagesschau24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/1280px-Tagesschau24-2012.svg.png",Tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-id="BR.de" tvg-name="Bayerischer Rundfunk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Logo_Bayerischer_Rundfunk_mit_ARD-Dachmarke_2024.svg/1280px-Logo_Bayerischer_Rundfunk_mit_ARD-Dachmarke_2024.svg.png",Bayerischer Rundfunk
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="HR.de" tvg-name="Hessischer Rundfunk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Hessischer_Rundfunk_Logo_2023.svg/1280px-Hessischer_Rundfunk_Logo_2023.svg.png",Hessischer Rundfunk
+https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8
+#EXTINF:-1 tvg-id="MDR.de" tvg-name="Mitteldeutscher Rundfunk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/1280px-MDR_Logo_2017.svg.png",Mitteldeutscher Rundfunk
+https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8
 #EXTINF:-1 tvg-id="ZDF.de" tvg-name="ZDF" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1280px-ZDF_logo.svg.png",ZDF
 https://cachehsi1a.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
 #EXTINF:-1 tvg-id="ZDFneo.de" tvg-name="ZDFneo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ZDFneo_2017.svg/1280px-ZDFneo_2017.svg.png",ZDFneo
