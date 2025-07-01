@@ -1,0 +1,3 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+#EXTINF:-1 tvg-id="DasErste.de" tvg-name="Das Erste" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/1280px-Das_Erste_2014.svg.png",Das erste
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
