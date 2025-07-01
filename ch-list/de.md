@@ -21,6 +21,18 @@
    
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/1280px-Tagesschau24-2012.svg.png" width="128">  
 
+- **Bayerischer Rundfunk**
+   
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Logo_Bayerischer_Rundfunk_mit_ARD-Dachmarke_2024.svg/1280px-Logo_Bayerischer_Rundfunk_mit_ARD-Dachmarke_2024.svg.png" width="128">  
+  
+- **Hessischer Rundfunk**
+   
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Hessischer_Rundfunk_Logo_2023.svg/1280px-Hessischer_Rundfunk_Logo_2023.svg.png" width="128">  
+  
+- **Norddeutscher Rundfunk**
+   
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/NDR_Logo_mit_neuer_ARD-Dachmarke.svg/1280px-NDR_Logo_mit_neuer_ARD-Dachmarke.svg.png" width="128">  
+  
 - **ZDF**
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1280px-ZDF_logo.svg.png" width="128">  
