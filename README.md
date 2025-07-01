@@ -43,6 +43,11 @@ Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readm
 
 📺 **Channel List:** [View all swiss channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/ch.md)  
 
+### 🇩🇪 Germany
+🔗 **Short URL:** [https://tinyurl.com/ungeode](https://tinyurl.com/ungeode)
+
+📺 **Channel List:** [View all german channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/de.md)  
+
 ### 🇺🇸 United States
 🔗 **Short URL:** [https://tinyurl.com/ungeous](https://tinyurl.com/ungeous)
 
