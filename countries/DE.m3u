@@ -27,3 +27,5 @@ https://cachehsi1a.netplus.ch/live/eds/rtl2/browser-dash/rtl2.mpd
 https://cachehsi1a.netplus.ch/live/eds/vox/browser-dash/vox.mpd
 #EXTINF:-1 tvg-id="NITRO.de" tvg-name="Nitro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/1280px-Nitro_Logo.svg.png",Nitro
 https://cachehsi1a.netplus.ch/live/eds/rtlnitro/browser-dash/rtlnitro.mpd
+#EXTINF:-1 tvg-id="SUPER.RTL.de" tvg-name="Super RTL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Super_RTL_Logo_orange_2019.svg/1280px-Super_RTL_Logo_orange_2019.svg.png",Super RTL
+https://cachehsi1a.netplus.ch/live/eds/superrtl/browser-dash/supertl.mpd
