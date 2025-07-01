@@ -15,3 +15,5 @@ https://cachehsi1a.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
 https://cachehsi1a.netplus.ch/live/eds/kikahd/browser-dash/kikahd.mpd
 #EXTINF:-1 tvg-id="ARTE.de" tvg-name="Arte" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/620px-Arte_Logo_2017.svg.png",Arte
 https://cachehsi1a.netplus.ch/live/eds/artehd/browser-dash/artehd.mpd
+#EXTINF:-1 tvg-id="3sat.de" tvg-name="3sat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/1280px-3sat_2019.svg.png",3sat
+https://cachehsi1a.netplus.ch/live/eds/3sathd/browser-dash/3sathd.mpd
