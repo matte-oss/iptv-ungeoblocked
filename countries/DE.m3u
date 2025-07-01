@@ -29,5 +29,3 @@ https://cachehsi1a.netplus.ch/live/eds/vox/browser-dash/vox.mpd
 https://cachehsi1a.netplus.ch/live/eds/rtlnitro/browser-dash/rtlnitro.mpd
 #EXTINF:-1 tvg-id="SUPER.RTL.de" tvg-name="Super RTL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Super_RTL_Logo_orange_2019.svg/1280px-Super_RTL_Logo_orange_2019.svg.png",Super RTL
 https://cachehsi1a.netplus.ch/live/eds/superrtl/browser-dash/supertl.mpd
-#EXTINF:-1 tvg-id="SAT.1.de" tvg-name="Sat.1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/1280px-Neues_Sat._1_Logo_transparent.png",Sat.1
-https://cachehsi1a.netplus.ch/live/eds/sat1/browser-dash/sat1.mpd
