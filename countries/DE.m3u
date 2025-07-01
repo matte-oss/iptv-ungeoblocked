@@ -21,9 +21,9 @@ https://cachehsi1a.netplus.ch/live/eds/3sathd/browser-dash/3sathd.mpd
 https://cachehsi1a.netplus.ch/live/eds/phoenixhd/browser-dash/phoenixhd.mpd
 #EXTINF:-1 tvg-id="RTL.de" tvg-name="RTL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/RTL_Logo_2021.svg/1280px-RTL_Logo_2021.svg.png",RTL
 https://cachehsi1a.netplus.ch/live/eds/rtl/browser-dash/rtl.mpd
-#EXTINF:-1 tvg-id="RTLZWEI.de" tvg-name="Phoenix" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/1280px-RTLZWEI_Logo_2019.svg.png",RTL Zwei
+#EXTINF:-1 tvg-id="RTLZWEI.de" tvg-name="RTL Zwei" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/1280px-RTLZWEI_Logo_2019.svg.png",RTL Zwei
 https://cachehsi1a.netplus.ch/live/eds/rtl2/browser-dash/rtl2.mpd
-#EXTINF:-1 tvg-id="VOX.de" tvg-name="Phoenix" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/VOX_Logo_2013.svg/1280px-VOX_Logo_2013.svg.png",VOX
+#EXTINF:-1 tvg-id="VOX.de" tvg-name="VOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/VOX_Logo_2013.svg/1280px-VOX_Logo_2013.svg.png",VOX
 https://cachehsi1a.netplus.ch/live/eds/vox/browser-dash/vox.mpd
 #EXTINF:-1 tvg-id="NITRO.de" tvg-name="Nitro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/1280px-Nitro_Logo.svg.png",Nitro
 https://cachehsi1a.netplus.ch/live/eds/rtlnitro/browser-dash/rtlnitro.mpd
