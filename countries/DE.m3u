@@ -9,8 +9,8 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="HR.de" tvg-name="Hessischer Rundfunk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Hessischer_Rundfunk_Logo_2023.svg/1280px-Hessischer_Rundfunk_Logo_2023.svg.png",Hessischer Rundfunk
 https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8
-#EXTINF:-1 tvg-id="MDR.de" tvg-name="Mitteldeutscher Rundfunk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/1280px-MDR_Logo_2017.svg.png",Mitteldeutscher Rundfunk
-https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8
+#EXTINF:-1 tvg-id="NDR.de" tvg-name="Norddeutscher Rundfunk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/NDR_Logo_mit_neuer_ARD-Dachmarke.svg/1280px-NDR_Logo_mit_neuer_ARD-Dachmarke.svg.png",Norddeutscher Rundfunk
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
 #EXTINF:-1 tvg-id="ZDF.de" tvg-name="ZDF" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1280px-ZDF_logo.svg.png",ZDF
 https://cachehsi1a.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
 #EXTINF:-1 tvg-id="ZDFneo.de" tvg-name="ZDFneo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ZDFneo_2017.svg/1280px-ZDFneo_2017.svg.png",ZDFneo
