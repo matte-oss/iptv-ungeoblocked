@@ -11,3 +11,5 @@ https://cachehsi1a.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd
 https://cachehsi1a.netplus.ch/live/eds/zdfneohd/browser-dash/zdfneohd.mpd
 #EXTINF:-1 tvg-id="ZDFinfo.de" tvg-name="ZDFneo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/1280px-ZDFinfo_2011.svg.png",ZDFinfo
 https://cachehsi1a.netplus.ch/live/eds/zdfinfohd/browser-dash/zdfinfohd.mpd
+#EXTINF:-1 tvg-id="KIKA.de" tvg-name="KIKA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/1280px-Kika_2012.svg.png",KIKA
+https://cachehsi1a.netplus.ch/live/eds/kikahd/browser-dash/kikahd.mpd
