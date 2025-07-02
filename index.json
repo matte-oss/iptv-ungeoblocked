@@ -1,0 +1,27 @@
+[
+  {
+    "country": "United Kingdom",
+    "code": "UK",
+    "emoji": "🇬🇧"
+  },
+  {
+    "country": "Italy",
+    "code": "IT",
+    "emoji": "🇮🇹"
+  },
+  {
+    "country": "Switzerland",
+    "code": "CH",
+    "emoji": "🇨🇭"
+  },
+  {
+    "country": "Germany",
+    "code": "DE",
+    "emoji": "🇩🇪"
+  },
+  {
+    "country": "United States",
+    "code": "US",
+    "emoji": "🇺🇸"
+  }
+]
