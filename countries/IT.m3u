@@ -1,10 +1,10 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz"
 #EXTINF:-1 tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1351px-Rai_1_-_Logo_2016.svg.png",Rai 1
-https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
 #EXTINF:-1 tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1920px-Rai_2_-_Logo_2016.svg.png",Rai 2
-https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai2.m3u8
 #EXTINF:-1 tvg-id="Rai3.it" tvg-name="Rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png",Rai 3
-https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8
+https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai3.m3u8
 #EXTINF:-1 tvg-id="Rete4.HD.it" tvg-name="Rete 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1280px-Rete_4_-_Logo_2018.svg.png",Rete 4
 https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8  
 #EXTINF:-1 tvg-id="Canale5.HD.it" tvg-name="Canale 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1280px-Canale_5_-_2018_logo.svg.png",Canale 5
