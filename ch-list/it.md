@@ -85,10 +85,6 @@
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png" width="128">
 
-- **HGTV**
-  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/HGTV_logo.svg/1280px-HGTV_logo.svg.png" width="128">
-
 - **Rai Scuola**
   
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png" width="128">
