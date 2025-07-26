@@ -93,10 +93,6 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rai_Sport_-_Logo_2022.svg/1280px-Rai_Sport_-_Logo_2022.svg.png" width="128">  
 
-- **MotorTrend**
-  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Motor_Trend.svg/1280px-Motor_Trend.svg.png" width="128">
-
 - **SuperTennis**
   
   <img src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/1280px-SuperTennis_-_Logo_2016.svg.png" width="128">
