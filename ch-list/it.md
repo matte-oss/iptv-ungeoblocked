@@ -49,14 +49,6 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/LA7d_%282024%29.svg/1280px-LA7d_%282024%29.svg.png" width="128">  
 
-- **Real Time** 
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Real_Time_logo.svg/1280px-Real_Time_logo.svg.png" width="128">  
-
-- **Food Network** 
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png" width="128">  
-
 - **RTL 102.5 TV** 
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/1280px-RTL_102.5_logo.svg.png" width="128">  
