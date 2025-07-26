@@ -26,9 +26,6 @@ Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readm
 
 *Note: some channels (e.g, Channel 4) require an IPTV player that supports DRM*
 
-## ⚠️Announcement⚠️:
-Netplus just introduced a token system, so now most streams are broken
-
 ### **Available Countries:**  
 
 ### 🇬🇧 United Kingdom  

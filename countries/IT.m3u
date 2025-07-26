@@ -1,62 +1,46 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz"
 #EXTINF:-1 tvg-id="Rai1.it" tvg-name="Rai 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/1351px-Rai_1_-_Logo_2016.svg.png",Rai 1
-https://cachehsi1a.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
+https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8
 #EXTINF:-1 tvg-id="Rai2.it" tvg-name="Rai 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/1920px-Rai_2_-_Logo_2016.svg.png",Rai 2
-https://cachehsi1a.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
+https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
 #EXTINF:-1 tvg-id="Rai3.it" tvg-name="Rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/1920px-Rai_3_-_Logo_2016.svg.png",Rai 3
-https://cachehsi1a.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
+https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8
 #EXTINF:-1 tvg-id="Rete4.HD.it" tvg-name="Rete 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1280px-Rete_4_-_Logo_2018.svg.png",Rete 4
-https://cachehsi1a.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd  
+https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8  
 #EXTINF:-1 tvg-id="Canale5.HD.it" tvg-name="Canale 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1280px-Canale_5_-_2018_logo.svg.png",Canale 5
-https://cachehsi1a.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd  
+https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8  
 #EXTINF:-1 tvg-id="Italia1.HD.it" tvg-name="Italia 1" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/30/Logo_Italia_1.svg/1280px-Logo_Italia_1.svg.png",Italia 1
-https://cachehsi1a.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
+https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8
 #EXTINF:-1 tvg-id="LA7.HD.it" tvg-name="La7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1280px-LA7_-_Logo_2011.svg.png",La7
-https://cachehsi1a.netplus.ch/live/eds/la7/browser-dash/la7.mpd  
+https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
 #EXTINF:-1 tvg-id="Nove.HD.it" tvg-name="Nove" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nove_-_Logo_2017.svg/1280px-Nove_-_Logo_2017.svg.png",Nove
-https://cachehsi1a.netplus.ch/live/eds/nove/browser-dash/nove.mpd
+https://viamotionhsi.netplus.ch/live/eds/nove/browser-HLS8/nove.m3u8
 #EXTINF:-1 tvg-id="TV2000.it.it" tvg-name="TV2000" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tv2000_-_Logo_2022.svg/1280px-Tv2000_-_Logo_2022.svg.png",TV2000
-https://hls.live2.meride.tv/hls/live/2028947/pu934tjb/hls_1_3000/chunklist.m3u8
+https://hls.live2.meride.tv/hls/live/2028947/pu934tjb/playlist.m3u8
 #EXTINF:-1 tvg-id="LA7d.HD.it" tvg-name="La7d" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/LA7d_%282024%29.svg/1280px-LA7d_%282024%29.svg.png",La7d
-https://cachehsi1a.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
-#EXTINF:-1 tvg-id="Real.Time.it" tvg-name="Real Time" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Real_Time_logo.svg/1280px-Real_Time_logo.svg.png",Real Time
-https://dpe9o84j8ho51.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="FoodNetwork.HD.it" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Food-network_color.svg/1280px-Food-network_color.svg.png",Food Network
-https://dlv0tnsho08fc.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 tvg-id="RTL.102.5.HD.it" tvg-name="RTL 102.5 TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/1280px-RTL_102.5_logo.svg.png",RTL 102.5 TV
 https://streamcdnl1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
-#EXTINF:-1 tvg-id="Warner.TV.it" tvg-name="Warner TV Italy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1280px-Warner_TV_Italy.svg.png",Warner TV
-https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="Giallo.it" tvg-name="Giallo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/1280px-Giallo_-_Logo_2014.svg.png",Giallo
-https://d2pxu244r32qi9.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="Boing.it" tvg-name="Boing" tvg-logo="https://upload.wikimedia.org/wikipedia/it/b/b2/Boing_logo_2020.png",Boing
 https://liveturner.akamaized.net/75a4d1a90e744fa5b9901a1853d2c47f/eu-central-1/6284318116001/profile_0/chunklist.m3u8
-#EXTINF:-1 tvg-id="K2.it" tvg-name="K2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/7/70/K2_logo_%282013%29.svg/1280px-K2_logo_%282013%29.svg.png",K2
-https://dh816p8puicq.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai.Gulp.it" tvg-name="Rai Gulp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png",Rai Gulp
-https://cachehsi1a.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
-#EXTINF:-1 tvg-id="Frisbee.it" tvg-name="Frisbee" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/FRISBEE_LOGO_2015.png/1280px-FRISBEE_LOGO_2015.png",Frisbee
-https://ddqvq37ms0b77.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8
+https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8
 #EXTINF:-1 tvg-id="Cartoonito.it" tvg-name="Cartoonito" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/1280px-Cartoonito_-_Logo_2021.svg.png",Cartoonito
 https://liveturner.akamaized.net/95b0be1a00834dd2b81c021bc5a35b9c/eu-central-1/6284318116001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="Super!.it" tvg-name="Super!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Super%21_logo_2025.png",Super!
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai.News.24.ch" tvg-name="Rai News 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png",Rai News 24
-https://ilglobotv-live.akamaized.net/channels/RAINews24/Live.m3u8
+https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
 #EXTINF:-1 tvg-id="TGCom.it" tvg-name="Mediaset TGCOM24" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/1/1a/Mediaset_TGCom24.png/1920px-Mediaset_TGCom24.png",Mediaset TGCOM24
 https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8  
 #EXTINF:-1 tvg-id="DMAX.Italia.ch" tvg-name="DMAX Italy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/1280px-DMAX_-_Logo_2016.svg.png",DMAX
-https://cachehsi1a.netplus.ch/live/eds/dmaxitalia/browser-dash/dmaxitalia.mpd  
+https://viamotionhsi.netplus.ch/live/eds/dmaxitalia/browser-HLS8/dmaxitalia.m3u8  
 #EXTINF:-1 tvg-id="RaiStoria.it" tvg-name="Rai Storia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1280px-Rai_Storia_-_Logo_2017.svg.png",Rai Storia
-https://cachehsi1a.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
-#EXTINF:-1 tvg-id="HGTV.it" tvg-name="HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/HGTV_logo.svg/1280px-HGTV_logo.svg.png",HGTV
-https://dncwa2a3o9ock.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8
+https://ilglobotv-live.akamaized.net/channels/RAIStoria/Live.m3u8
 #EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="Rai Scuola" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1280px-Rai_Scuola_-_Logo_2017.svg.png",Rai Scuola
-https://cachehsi1a.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
+https://ilglobotv-live.akamaized.net/channels/RAIScuola/Live.m3u8
 #EXTINF:-1 tvg-id="RaiSport.it" tvg-name="Rai Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rai_Sport_-_Logo_2022.svg/1280px-Rai_Sport_-_Logo_2022.svg.png",Rai Sport
-https://cachehsi1a.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
-#EXTINF:-1 tvg-id="Motor.Trend.it" tvg-name="MotorTrend" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Motor_Trend.svg/1280px-Motor_Trend.svg.png",MotorTrend
-https://d3k8z7jdiq6btv.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8
+https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8
 #EXTINF:-1 tvg-id="SuperTennis.it" tvg-name="SuperTennis" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/1280px-SuperTennis_-_Logo_2016.svg.png",SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #EXTINF:-1 tvg-id="Radio.Italia.TV.HD.it" tvg-name="Radio Italia TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Radio_Italia_logo_%282020%29.svg/1280px-Radio_Italia_logo_%282020%29.svg.png",Radio Italia TV

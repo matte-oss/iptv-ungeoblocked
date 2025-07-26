@@ -1,17 +1,17 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 tvg-id="RSI.La.1.ch" tvg-name="RSI la 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1280px-RSI_La_1_2012.svg.png",RSI la 1
-https://cachehsi1a.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
+https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8
 #EXTINF:-1 tvg-id="RSI.La.2.ch" tvg-name="RSI la 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1280px-RSI_La_2_2012.svg.png",RSI la 2
-https://cachehsi1a.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
+https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8
 #EXTINF:-1 tvg-id="SRF.1.ch" tvg-name="SRF 1" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/0/07/SRF_1-Logo.svg/1280px-SRF_1-Logo.svg.png",SRF 1
-https://cachehsi1a.netplus.ch/live/eds/srf1hd/browser-dash/srf1hd.mpd
+https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8
 #EXTINF:-1 tvg-id="SRF.zwei.ch" tvg-name="SRF Zwei" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Logo_SRF_zwei.svg/1280px-Logo_SRF_zwei.svg.png",SRF Zwei
-https://cachehsi1a.netplus.ch/live/eds/srf2hd/browser-dash/srf2hd.mpd
+https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8
 #EXTINF:-1 tvg-id="SRF.info.ch" tvg-name="SRF Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/1280px-Logo_SRF_info.svg.png",SRF Info
-https://cachehsi1a.netplus.ch/live/eds/srfinfo/browser-dash/srfinfo.mpd
+https://viamotionhsi.netplus.ch/live/eds/srfinfo/browser-HLS8/srfinfo.m3u8
 #EXTINF:-1 tvg-id="RTS.un.ch" tvg-name="RTS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTS_1_Logo_2023.svg/1280px-RTS_1_Logo_2023.svg.png",RTS 1
-https://cachehsi1a.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd
+https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8
 #EXTINF:-1 tvg-id="RTS.deux.ch" tvg-name="RTS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RTS_2_Logo_2023.svg/1280px-RTS_2_Logo_2023.svg.png",RTS 2
-https://cachehsi1a.netplus.ch/live/eds/rts2hd/browser-dash/rts2hd.mpd
+https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8
 #EXTINF:-1 tvg-id="RTS.info.ch" tvg-name="RTS Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/RTS_Info_Logo_2023.svg/1024px-RTS_Info_Logo_2023.svg.png",RTS Info
 https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3u8?dw=7200
