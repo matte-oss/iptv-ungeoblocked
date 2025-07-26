@@ -57,17 +57,9 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/it/b/b2/Boing_logo_2020.png" width="128">  
 
-- **K2** 
-
-  <img src="https://upload.wikimedia.org/wikipedia/it/thumb/7/70/K2_logo_%282013%29.svg/1280px-K2_logo_%282013%29.svg.png" width="128">  
-
 - **Rai Gulp**  
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png" width="128">  
-
-- **Frisbee**  
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/FRISBEE_LOGO_2015.png/1280px-FRISBEE_LOGO_2015.png" width="128">  
 
 - **Cartoonito** 
 
