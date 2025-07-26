@@ -53,14 +53,6 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/1280px-RTL_102.5_logo.svg.png" width="128">  
  
-- **Warner TV** 
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1280px-Warner_TV_Italy.svg.png" width="128">  
-
-- **Giallo** 
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/1280px-Giallo_-_Logo_2014.svg.png" width="128">  
-
 - **Boing** 
 
   <img src="https://upload.wikimedia.org/wikipedia/it/b/b2/Boing_logo_2020.png" width="128">  
