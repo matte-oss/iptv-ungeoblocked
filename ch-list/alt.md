@@ -30,13 +30,13 @@
 ## **🇮🇹 Italy**  
 
 ### **Rai 1** 
-1) `https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8` 🌍
+1) `https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8` 🌍
 
 ### **Rai 2**  
-1) `https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8` 🌍 
+1) `https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8` 🌍 
 
 ### **Rai 3**  
-1) ``https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8`` 🌍 
+1) `https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8` 🌍 
 
 ### **La7**  
 1) `https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8` 🌍 
