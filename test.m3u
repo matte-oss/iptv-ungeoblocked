@@ -8,4 +8,4 @@ http://188.60.179.180:8000/play/xxRaiYoyo
 #EXTINF:-1,Dual channel test
 https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
 #EXTINF:-1,GEOBLOCKED CBBC test
-https://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbbc.m3u8
+https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
