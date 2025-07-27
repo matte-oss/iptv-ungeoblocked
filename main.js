@@ -83,6 +83,24 @@ async function handler(request) {
         }
         
         addLog('🔗 Stream URL: ' + streamUrl);
+        addLog('🌙 Night mode detected - using direct video playback');
+        
+        // Per la modalità notturna, usa direttamente il video MP4
+        if (window.location.search.includes('mode=night') || ${nightMode}) {
+            addLog('▶️ Loading direct MP4 video...');
+            video.src = '${FALLBACK_VIDEO}';
+            video.loop = true; // Loop infinito
+            video.addEventListener('canplay', () => {
+                addLog('✅ Video can play - starting playback');
+                video.play().catch(e => addLog('⚠️ Autoplay failed: ' + e.message));
+            });
+            video.addEventListener('error', (e) => {
+                addLog('❌ Video error: ' + (e.target.error ? e.target.error.message : 'Unknown error'));
+            });
+            video.addEventListener('loadstart', () => addLog('📡 Video loading started'));
+            video.addEventListener('loadeddata', () => addLog('📊 Video data loaded'));
+            return; // Esci dalla funzione, non usare HLS
+        }
         
         // Test diretto del stream
         fetch(streamUrl)
@@ -162,19 +180,17 @@ async function handler(request) {
     console.log(`Serving stream - Night mode: ${nightMode}`);
     
     if (nightMode) {
-      // Playlist per video loop
+      // Playlist che punta al nostro proxy invece che al MP4 diretto
       const playlist = `#EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:3600
+#EXT-X-TARGETDURATION:10
 #EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:3600.0,
-${FALLBACK_VIDEO}
-#EXTINF:3600.0,
-${FALLBACK_VIDEO}
-#EXTINF:3600.0,
-${FALLBACK_VIDEO}`;
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:10.0,
+${url.origin}/video-segment.ts
+#EXT-X-ENDLIST`;
       
-      console.log('Returning night mode playlist');
+      console.log('Returning night mode playlist with proxy segment');
       
       return new Response(playlist, {
         headers: {
@@ -213,13 +229,14 @@ ${FALLBACK_VIDEO}`;
       } catch (error) {
         console.error('Live stream error:', error);
         
-        // Fallback al video
+        // Fallback al video con proxy
         const fallbackPlaylist = `#EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:3600
+#EXT-X-TARGETDURATION:10
 #EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:3600.0,
-${FALLBACK_VIDEO}
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:10.0,
+${url.origin}/video-segment.ts
 #EXT-X-ENDLIST`;
         
         return new Response(fallbackPlaylist, {
@@ -229,6 +246,35 @@ ${FALLBACK_VIDEO}
           }
         });
       }
+    }
+  }
+  
+  // Proxy per il video MP4 come segmento TS
+  if (url.pathname === '/video-segment.ts') {
+    console.log('Serving video as TS segment');
+    
+    try {
+      const videoResponse = await fetch(FALLBACK_VIDEO, {
+        headers: {
+          'Range': request.headers.get('Range') || '',
+        }
+      });
+      
+      console.log(`Video response status: ${videoResponse.status}`);
+      
+      return new Response(videoResponse.body, {
+        status: videoResponse.status,
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'video/mp2t', // Importante: fingere che sia TS
+          'Accept-Ranges': 'bytes',
+          'Content-Range': videoResponse.headers.get('Content-Range') || '',
+          'Content-Length': videoResponse.headers.get('Content-Length') || '',
+        }
+      });
+    } catch (error) {
+      console.error('Video segment error:', error);
+      return new Response('Video segment error', { status: 500, headers: corsHeaders });
     }
   }
   
