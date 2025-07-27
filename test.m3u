@@ -7,3 +7,5 @@ http://188.60.179.180:8000/play/a0oy
 http://188.60.179.180:8000/play/xxRaiYoyo
 #EXTINF:-1,Dual channel test
 https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
+#EXTINF:-1,GEOBLOCKED CBBC test
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbbc.m3u8
