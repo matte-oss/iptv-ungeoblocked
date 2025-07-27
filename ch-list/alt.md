@@ -38,8 +38,8 @@
 ### **Rai 3**  
 1) `https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8` 🌍 
 
-### **La7**  
-1) `https://ilglobotv-live.akamaized.net/channels/La7/Live.m3u8` 🌍 
+### **La7**    
+1) `https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8`  
 
 ### **Rai News 24**
 1) `https://ilglobotv-live.akamaized.net/channels/RAINews24/Live.m3u8`
