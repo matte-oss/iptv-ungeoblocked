@@ -48,6 +48,11 @@ Simply open any [IPTV player](https://github.com/iptv-org/awesome-iptv?tab=readm
 
 📺 **Channel List:** [View all german channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/de.md)  
 
+### 🇫🇷 France
+🔗 **Short URL:** [https://tinyurl.com/ungeofr](https://tinyurl.com/ungeofr)
+
+📺 **Channel List:** [View all french channels](https://github.com/matte-oss/iptv-ungeoblocked/blob/main/ch-list/fr.md)  
+
 ### 🇺🇸 United States
 🔗 **Short URL:** [https://tinyurl.com/ungeous](https://tinyurl.com/ungeous)
 
