@@ -68,7 +68,7 @@
 - **ITV2**
   
   <img
-src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1280px-ITV2_logo_2022.svg.png" width="128">
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ITV2_logo_2022.svg/1280px-ITV2_logo_2022.svg.png" width="128">
 
 - **ITV3**
   
