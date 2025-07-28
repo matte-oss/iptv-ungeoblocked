@@ -19,5 +19,5 @@ https://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8
 https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8
 #EXTINF:-1 tvg-id="LCI.fr" tvg-name="LCI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/La_Cha%C3%AEne_Info_%28logo%29.svg/1280px-La_Cha%C3%AEne_Info_%28logo%29.svg.png",LCI
 https://viamotionhsi.netplus.ch/live/eds/lci/browser-HLS8/lci.m3u8
-#EXTINF:-1 tvg-id="France.Info.fr" tvg-name="France Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Franceinfo.svg/1280px-Franceinfo.svg.png",France Info
-https://viamotionhsi.netplus.ch/live/eds/franceinfo/browser-HLS8/franceinfo.m3u8
+#EXTINF:-1 tvg-id="La.chaine.l’Équipe.fr" tvg-name="La Chaîne L'Équipe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/La_cha%C3%AEne_l%27Equipe_-_logo_2016.png/1280px-La_cha%C3%AEne_l%27Equipe_-_logo_2016.png",Chaîne L'Équipe
+https://viamotionhsi.netplus.ch/live/eds/lequipe21/browser-HLS8/lequipe21.m3u8
