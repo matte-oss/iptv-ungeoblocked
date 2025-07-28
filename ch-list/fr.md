@@ -31,7 +31,7 @@
   
 - **M6**
    
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/1280px-Logo_M6_%282020%2C_fond_clair%29" width="128">  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/1280px-Logo_M6_%282020%2C_fond_clair%29.png" width="128">  
   
 - **W9**
   
@@ -55,4 +55,4 @@
   
 - **La Chaîne L'Équipe** 
   
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/La_cha%C3%AEne_l%27Equipe_-_logo_2016.png/1280px-La_cha%C3%AEne_l%27" width="128">  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/La_cha%C3%AEne_l%27Equipe_-_logo_2016.png/1280px-La_cha%C3%AEne_l%27.png" width="128">  
