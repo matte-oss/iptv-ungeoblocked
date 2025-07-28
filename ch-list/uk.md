@@ -73,7 +73,7 @@ src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/128
 - **ITV3**
   
   <img
-src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/ITV3_logo_2022.svg/1280px-ITV3_logo_2022.svg.png" width="128">
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/ITV3_logo_2022.svg/1280px-ITV3_logo_2022.svg.png" width="128">
 
 - **ITV4**
   
