@@ -9,20 +9,24 @@
 
 ---
 
-- **La 2**   
+- **La 2**
+  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Logo_La_2.svg/1280px-Logo_La_2.svg.png" width="128">  
 
-- **Teledeporte** 
+- **Teledeporte**
+  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Teledeporte.svg/1280px-Teledeporte.svg.png" width="128">  
 
-- **24 Horas**   
+- **24 Horas**
+  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Logo_Canal_24_horas.svg/1280px-Logo_Canal_24_horas.svg.png" width="128">  
 
-- **Clan**  
+- **Clan**
+  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Clan_logo.svg/1280px-Clan_logo.svg.png" width="128">  
 
 - **Antena 3**
-- 
+  
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/1280px-Logo_Antena_3_2025_%28Naranja%29.svg.png" width="128">
 
 - **laSexta** 
