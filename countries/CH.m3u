@@ -21,5 +21,5 @@ https://viamotionhsi.netplus.ch/live/eds/rougetv/browser-HLS8/rougetv.m3u8
 https://viamotionhsi.netplus.ch/live/eds/onetv/browser-HLS8/onetv.m3u8
 #EXTINF:-1 tvg-id="lfm.TV.ch" tvg-name="CARAC3" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/55/CARAC3_logo_2023.svg/1280px-CARAC3_logo_2023.svg.png",CARAC3
 https://viamotionhsi.netplus.ch/live/eds/lfmtv/browser-HLS8/lfmtv.m3u8
-#EXTINF:-1 tvg-id="TV.suisseplus.ch" tvg-name="CARAC4" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/0/02/CARAC4_logo_2023.svg/1280px-CARAC4_logo_2023.svg.png",CARAC4
+#EXTINF:-1 tvg-id="TV.Suisseplus.ch" tvg-name="CARAC4" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/0/02/CARAC4_logo_2023.svg/1280px-CARAC4_logo_2023.svg.png",CARAC4
 https://viamotionhsi.netplus.ch/live/eds/tvsuisseplus/browser-HLS8/tvsuisseplus.m3u8
