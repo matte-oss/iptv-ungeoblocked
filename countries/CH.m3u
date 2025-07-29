@@ -17,3 +17,5 @@ https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8
 https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3u8?dw=7200
 #EXTINF:-1 tvg-id="Rouge.TV.ch" tvg-name="CARAC1" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/7/74/CARAC1_logo_2023.svg/1280px-CARAC1_logo_2023.svg.png",CARAC1
 https://viamotionhsi.netplus.ch/live/eds/rougetv/browser-HLS8/rougetv.m3u8
+#EXTINF:-1 tvg-id="One.TV.ch" tvg-name="CARAC2" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e8/CARAC2_logo_2023.svg/1280px-CARAC2_logo_2023.svg.png",CARAC2
+https://viamotionhsi.netplus.ch/live/eds/onetv/browser-HLS8/onetv.m3u8
