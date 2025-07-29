@@ -19,3 +19,5 @@ http://185.189.225.150:85/nova/index.m3u8
 http://185.189.225.150:85/mega/index.m3u8
 #EXTINF:-1 tvg-id="Atreseries.es" tvg-name="Atreseries" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/1280px-Atreseries_2020_logo.svg.png",Atreseries
 http://185.189.225.150:85/atreseries/index.m3u8
+#EXTINF:-1 tvg-id="Telecinco.es" tvg-name="Telecinco" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telecinco_2024_Logo.svg/1280px-Telecinco_2024_Logo.svg.png",Telecinco
+http://185.189.225.150:85/telecinco/index.m3u8
