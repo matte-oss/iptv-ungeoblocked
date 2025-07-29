@@ -1,0 +1,7 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+#EXTINF:-1 tvg-id="La.2.es" tvg-name="La 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Logo_La_2.svg/1280px-Logo_La_2.svg.png",La 2
+https://d4g9wh8d4wiaw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-crbrakk0yedqb/La2ES.m3u8
+#EXTINF:-1 tvg-id="Teledeporte.es" tvg-name="Teledeporte" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Teledeporte.svg/1280px-Teledeporte.svg.png",Teledeporte
+https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8
+#EXTINF:-1 tvg-id="Canal.24.h.es" tvg-name="24 Horas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Logo_Canal_24_horas.svg/1280px-Logo_Canal_24_horas.svg.png",24 Horas
+https://d32rw80ytx9uxs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vlldndmow4yre/24HES.m3u8
