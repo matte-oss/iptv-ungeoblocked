@@ -23,3 +23,5 @@ https://viamotionhsi.netplus.ch/live/eds/onetv/browser-HLS8/onetv.m3u8
 https://viamotionhsi.netplus.ch/live/eds/lfmtv/browser-HLS8/lfmtv.m3u8
 #EXTINF:-1 tvg-id="TV.Suisseplus.ch" tvg-name="CARAC4" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/0/02/CARAC4_logo_2023.svg/1280px-CARAC4_logo_2023.svg.png",CARAC4
 https://viamotionhsi.netplus.ch/live/eds/tvsuisseplus/browser-HLS8/tvsuisseplus.m3u8
+#EXTINF:-1 tvg-id="TVM3.ch" tvg-name="TVM3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_TVM3_2015.png/1280px-Logo_TVM3_2015.png",TVM3
+https://viamotionhsi.netplus.ch/live/eds/tvm3/browser-HLS8/tvm3.m3u8
