@@ -137,6 +137,3 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/San_Marino_RTV_logo_2025.png" width="128">  
 
-- **San Marino RTV Sport** 🇸🇲 ❓
-
-  <img src="https://i.imgur.com/Q66qlKo.png" width="128">  
