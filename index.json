@@ -20,6 +20,16 @@
     "emoji": "🇩🇪"
   },
   {
+    "country": "France",
+    "code": "FR",
+    "emoji": "🇫🇷"
+  },
+  {
+    "country": "Spain",
+    "code": "ES",
+    "emoji": "🇪🇸"
+  },
+  {
     "country": "United States",
     "code": "US",
     "emoji": "🇺🇸"
