@@ -23,3 +23,5 @@ http://185.189.225.150:85/TeleCincoHD/index.m3u8
 http://185.189.225.150:85/CuatroHD/index.m3u8
 #EXTINF:-1 tvg-id="FDF.Telecinco.es" tvg-name="Factoría de Ficción" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Factor%C3%ADa_de_Ficci%C3%B3n.svg/1280px-Factor%C3%ADa_de_Ficci%C3%B3n.svg.png",Factoría de Ficción
 http://185.189.225.150:85/fdf/index.m3u8
+#EXTINF:-1 tvg-id="Boing.es" tvg-name="Boing" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Boing_2020.svg/1280px-Boing_2020.svg.png",Boing
+http://185.189.225.150:85/boing/index.m3u8
