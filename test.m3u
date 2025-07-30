@@ -7,5 +7,5 @@ http://188.60.179.180:8000/play/a0oy
 http://188.60.179.180:8000/play/xxRaiYoyo
 #EXTINF:-1,Dual channel test
 https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
-#EXTINF:-1,GEOBLOCKED CBBC test
-https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1,tv8 test
+https://masseolol-mediaflowp.hf.space/proxy/hls/manifest.m3u8?api_password=iptvungeoblocked&d=https://vavoo.to/play/4038365720/index.m3u8&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
