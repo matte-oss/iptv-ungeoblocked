@@ -13,6 +13,8 @@ https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8
 https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8
 #EXTINF:-1 tvg-id="LA7.HD.it" tvg-name="La7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1280px-LA7_-_Logo_2011.svg.png",La7
 https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
+#EXTINF:-1 tvg-id="TV8.HD.it" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6d/TV8_Logo_2016.svg/874px-TV8_Logo_2016.svg.png",TV8
+https://masseolol-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/40383657201f43ce81681d
 #EXTINF:-1 tvg-id="Nove.HD.it" tvg-name="Nove" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nove_-_Logo_2017.svg/1280px-Nove_-_Logo_2017.svg.png",Nove
 https://viamotionhsi.netplus.ch/live/eds/nove/browser-HLS8/nove.m3u8
 #EXTINF:-1 tvg-id="TV2000.it.it" tvg-name="TV2000" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tv2000_-_Logo_2022.svg/1280px-Tv2000_-_Logo_2022.svg.png",TV2000
