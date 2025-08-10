@@ -64,7 +64,7 @@
   
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/E4_logo_2018.svg/128px-E4_logo_2018.svg.png" width="128">
 
-- **ITV1**
+- **ITV1** (Northern Ireland)
   
   <img
 src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1280px-ITV1_logo_%282022%29.svg.png" width="128">
