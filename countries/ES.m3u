@@ -16,7 +16,7 @@ http://185.189.225.157/neox/index.m3u8
 #EXTINF:-1 tvg-id="Nova.es" tvg-name="Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/1280px-Nova.svg.png",Nova
 http://185.189.225.157/nova/index.m3u8
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/MEGA.svg/1280px-MEGA.svg.png",Mega
-http://185.189.225.150:85/mega/index.m3u8
+http://185.189.225.149/mega/index.m3u8
 #EXTINF:-1 tvg-id="Telecinco.es" tvg-name="Telecinco" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telecinco_2024_Logo.svg/1280px-Telecinco_2024_Logo.svg.png",Telecinco
 http://185.189.225.150:85/TeleCincoHD/index.m3u8
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-name="Cuatro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cuatro.svg/1280px-Cuatro.svg.png",Cuatro
