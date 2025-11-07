@@ -32,28 +32,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Set up report filename
-        id: set_filename
+      - name: Set up report filenames
+        id: set_filenames
         run: |
-          # New filename format: report_YYYY-MM-DD_HH-MM-SS.txt
-          FILENAME="reports/report_$(date -u +'%Y-%m-%d_%H-%M-%S').txt"
-          echo "report_file=${FILENAME}" >> $GITHUB_OUTPUT
+          echo "report_file=reports/report_$(date -u +'%Y-%m-%d_%H-%M-%S').txt" >> $GITHUB_OUTPUT
+          echo "badge_file=reports/badge-data.json" >> $GITHUB_OUTPUT
 
       - name: Run playlist tests
         id: run_tests
         env:
           PLAYLIST_DIR: countries
-          REPORT_FILE: ${{ steps.set_filename.outputs.report_file }}
+          REPORT_FILE: ${{ steps.set_filenames.outputs.report_file }}
+          BADGE_FILE: ${{ steps.set_filenames.outputs.badge_file }}
         run: |
           mkdir -p reports
-          python .github/scripts/test_playlists.py --dir "${PLAYLIST_DIR}" --output "${REPORT_FILE}"
+          python .github/scripts/test_playlists.py \
+            --dir "${PLAYLIST_DIR}" \
+            --output "${REPORT_FILE}" \
+            --badge-output "${BADGE_FILE}"
           
       - name: Commit and push report
         if: always()
         run: |
-          REPORT_FILE="${{ steps.set_filename.outputs.report_file }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "${REPORT_FILE}" || true
-          git commit -m "Add weekly playlist test report" || echo "No changes to commit"
+          git add reports/report_*.txt reports/badge-data.json || true
+          git commit -m "Add weekly playlist test report and badge data" || echo "No changes to commit"
           git push origin HEAD:refs/heads/${{ github.ref_name }} || echo "Push failed"
