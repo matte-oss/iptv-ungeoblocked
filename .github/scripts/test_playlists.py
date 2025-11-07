@@ -14,7 +14,11 @@ from urllib.parse import urlparse
 
 import requests
 
-URL_RE = re.compile(r"https?://[^\s()\"',>\[\]]+")
+# --- THIS IS THE CORRECTED REGEX ---
+# It now correctly handles URLs containing parentheses and square brackets.
+URL_RE = re.compile(r"https?://[^\s\"',<>]+")
+# --- END OF CORRECTION ---
+
 DEFAULT_TIMEOUT = 10  # seconds
 
 
@@ -33,6 +37,7 @@ def extract_urls_from_file(path):
         with open(path, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
                 if not line.strip().startswith("#"):
+                    # The finditer will now correctly parse URLs with parentheses
                     for m in URL_RE.finditer(line):
                         urls.add(m.group(0))
     except Exception as e:
@@ -46,18 +51,14 @@ def test_url(url, timeout=DEFAULT_TIMEOUT):
     It tries a HEAD request first and falls back to a GET request if needed.
     """
     headers = {"User-Agent": "iptv-ungeoblocked-playlist-tester/1.0 (+https://github.com/matte-oss/iptv-ungeoblocked)"}
-
-    # --- CORRECTED LOGIC: Try HEAD first, but don't let it kill the whole function ---
+    
     try:
         with requests.head(url, allow_redirects=True, timeout=timeout, headers=headers) as r:
             if r.status_code < 400:
                 return True, f"OK (HEAD: {r.status_code})"
-            # If status is >= 400, we don't return, we let it fall through to the GET request.
     except requests.exceptions.RequestException:
-        # Ignore exceptions from HEAD (like Timeout/ConnectionError) and fall through to GET.
-        pass
+        pass # Ignore HEAD exceptions and fall through to GET
 
-    # --- Fallback to GET request ---
     try:
         with requests.get(url, allow_redirects=True, timeout=timeout, headers=headers, stream=True) as r:
             if r.status_code < 400:
@@ -104,6 +105,11 @@ def main():
     print(f"\nFound {total_urls} unique URLs to test.\n")
     if total_urls == 0:
         print("No URLs found. Exiting.")
+        # Create empty reports if no URLs are found
+        summary_content = "No URLs found to test."
+        badge_data = {"schemaVersion": 1, "label": "channels", "message": "0/0 working", "color": "lightgrey"}
+        with open(args.output, "w", encoding="utf-8") as f: f.write(summary_content)
+        with open(args.badge_output, "w", encoding="utf-8") as f: json.dump(badge_data, f, indent=2)
         return 0
 
     working_count = 0
@@ -119,7 +125,7 @@ def main():
         time.sleep(0.1)
 
     failed_count = total_urls - working_count
-    success_rate = (working_count / total_urls) * 100 if total_urls > 0 else 0
+    success_rate = (working_count / total_urls) * 100
     end_time = datetime.now(timezone.utc)
     duration_seconds = (end_time - start_time).total_seconds()
 
@@ -141,29 +147,22 @@ def main():
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(summary_content)
 
-    if total_urls > 0:
-        if success_rate >= 90:
-            color = "success"
-        elif success_rate >= 70:
-            color = "yellow"
-        else:
-            color = "critical"
-        
-        badge_data = {
-            "schemaVersion": 1,
-            "label": "channels",
-            "message": f"{working_count}/{total_urls} working",
-            "color": color,
-        }
-        with open(args.badge_output, "w", encoding="utf-8") as f:
-            json.dump(badge_data, f, indent=2)
+    if success_rate >= 90: color = "success"
+    elif success_rate >= 70: color = "yellow"
+    else: color = "critical"
+    
+    badge_data = {
+        "schemaVersion": 1, "label": "channels",
+        "message": f"{working_count}/{total_urls} working", "color": color
+    }
+    with open(args.badge_output, "w", encoding="utf-8") as f:
+        json.dump(badge_data, f, indent=2)
 
     print("\n--- Report Summary ---")
     print(summary_content.split('\n\n')[0])
     print("----------------------")
     print(f"Comprehensive report saved to {args.output}")
-    if total_urls > 0:
-        print(f"Badge data saved to {args.badge_output}")
+    print(f"Badge data saved to {args.badge_output}")
 
     return 0
 
