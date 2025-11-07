@@ -2,7 +2,7 @@ name: Weekly playlist test
 
 on:
   schedule:
-    # Runs every Sunday at 00:00 UTC (adjust cron if you want a different time/day)
+    # Runs every Sunday at 00:00 UTC
     - cron: '0 0 * * 0'
   workflow_dispatch:
 
@@ -32,25 +32,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Set up report filename
+        id: set_filename
+        run: |
+          # Format is HH:MM-DD-MM-YYYY. Using periods for HH.MM to avoid issues with colons in filenames.
+          FILENAME="reports/playlist-test-$(date -u +'%H.%M-%d-%m-%Y').txt"
+          echo "report_file=${FILENAME}" >> $GITHUB_OUTPUT
+
       - name: Run playlist tests
         id: run_tests
         env:
-          # Use the 'countries' directory for playlists
           PLAYLIST_DIR: countries
-          REPORT_FILE: reports/playlist-test-${{ github.run_id }}-${{ github.run_number }}.json
+          # Get the generated filename from the previous step
+          REPORT_FILE: ${{ steps.set_filename.outputs.report_file }}
         run: |
           mkdir -p reports
           python .github/scripts/test_playlists.py --dir "${PLAYLIST_DIR}" --output "${REPORT_FILE}"
-          echo "report_file=${REPORT_FILE}" >> $GITHUB_OUTPUT
-
+          # The script itself will print the summary to the log
+          
       - name: Commit and push report
         if: always()
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          REPORT_FILE="${{ steps.run_tests.outputs.report_file }}"
+          REPORT_FILE="${{ steps.set_filename.outputs.report_file }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "${REPORT_FILE}" || true
-          git commit -m "Add weekly playlist test report: ${REPORT_FILE}" || echo "No changes to commit"
+          git commit -m "Add weekly playlist test report" || echo "No changes to commit"
           git push origin HEAD:refs/heads/${{ github.ref_name }} || echo "Push failed"
