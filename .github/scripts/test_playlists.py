@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Scan playlist files in a directory for http(s) URLs, test each URL (HEAD then GET fallback),
-and write a JSON report describing results.
+Scan playlist files in a directory for http(s) URLs, test each URL,
+and write a simple text summary report.
 
 Usage:
-  python .github/scripts/test_playlists.py --dir playlists --output reports/playlist-test-20251107.json
+  python .github/scripts/test_playlists.py --dir countries --output reports/summary.txt
 """
 
 import argparse
@@ -19,171 +19,108 @@ from urllib.parse import urlparse
 import requests
 
 URL_RE = re.compile(r"https?://[^\s'\",)>\]]+")
-
 DEFAULT_TIMEOUT = 10  # seconds
 
 
 def find_playlist_files(directory):
-    exts = {".m3u", ".m3u8", ".txt", ".pls"}
     files = []
     for root, _, filenames in os.walk(directory):
         for fn in filenames:
-            if os.path.splitext(fn)[1].lower() in exts or True:
-                # include all files but prefer known extensions
+            # Simple check for any text-based file, can be refined if needed
+            if not fn.startswith("."):
                 files.append(os.path.join(root, fn))
     return sorted(files)
 
 
 def extract_urls_from_file(path):
-    urls = []
+    urls = set()  # Use a set for automatic deduplication
     try:
         with open(path, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
-                line = line.strip()
-                if not line or line.startswith("#"):
-                    continue
-                for m in URL_RE.finditer(line):
-                    urls.append(m.group(0))
+                if not line.strip().startswith("#"):
+                    for m in URL_RE.finditer(line):
+                        urls.add(m.group(0))
     except Exception as e:
-        return {"error": f"failed to read: {e}", "urls": []}
-    return {"error": None, "urls": urls}
+        return None, f"failed to read: {e}"
+    return list(urls), None
 
 
 def test_url(url, timeout=DEFAULT_TIMEOUT):
-    out = {
-        "url": url,
-        "ok": False,
-        "status_code": None,
-        "reason": None,
-        "elapsed_ms": None,
-        "content_length": None,
-        "error": None,
-        "tested_with": None,
-        "final_url": None,
-    }
     headers = {"User-Agent": "iptv-ungeoblocked-playlist-tester/1.0 (+https://github.com/matte-oss/iptv-ungeoblocked)"}
     try:
-        start = time.time()
         # Try HEAD first (faster when supported)
-        try:
-            r = requests.head(url, allow_redirects=True, timeout=timeout, headers=headers)
-            out["tested_with"] = "HEAD"
-        except Exception:
-            r = None
-
-        if r is None or r.status_code >= 400:
-            # fallback to GET
-            start = time.time()
-            r = requests.get(url, allow_redirects=True, timeout=timeout, headers=headers, stream=True)
-            out["tested_with"] = "GET"
-
-        elapsed = (time.time() - start) * 1000.0
-        out["elapsed_ms"] = int(elapsed)
-        out["status_code"] = getattr(r, "status_code", None)
-        out["reason"] = getattr(r, "reason", None)
-        out["final_url"] = getattr(r, "url", None)
-        out["ok"] = r is not None and r.status_code < 400
-
-        # try to determine content length if GET returned headers
-        try:
-            cl = r.headers.get("Content-Length")
-            if cl:
-                out["content_length"] = int(cl)
-            else:
-                # if no content-length header, try reading small chunk to estimate
-                if out["tested_with"] == "GET":
-                    chunk = next(r.iter_content(1024), b"")
-                    out["content_length"] = len(chunk)
-        except Exception:
-            pass
-
-    except requests.exceptions.RequestException as e:
-        out["error"] = str(e)
-    except Exception as e:
-        out["error"] = f"unexpected: {e}"
-    finally:
-        try:
-            if "r" in locals() and hasattr(r, "close"):
-                r.close()
-        except Exception:
-            pass
-    return out
+        with requests.head(url, allow_redirects=True, timeout=timeout, headers=headers) as r:
+            if r.status_code < 400:
+                return True
+        # Fallback to GET if HEAD fails or is disallowed
+        with requests.get(url, allow_redirects=True, timeout=timeout, headers=headers, stream=True) as r:
+            return r.status_code < 400
+    except requests.exceptions.RequestException:
+        return False
+    except Exception:
+        return False
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Test playlists and save report.")
+    parser = argparse.ArgumentParser(description="Test playlists and save a summary report.")
     parser.add_argument("--dir", "-d", default="playlists", help="Directory containing playlist files")
-    parser.add_argument("--output", "-o", required=True, help="Output report file path (JSON)")
+    parser.add_argument("--output", "-o", required=True, help="Output summary report file path (.txt)")
     parser.add_argument("--timeout", "-t", type=int, default=DEFAULT_TIMEOUT, help="Timeout per request (s)")
     args = parser.parse_args()
 
-    playlist_dir = args.dir
-    output_path = args.output
-    timeout = args.timeout
+    start_time = datetime.now(timezone.utc)
 
-    run_at = datetime.now(timezone.utc).isoformat()
+    if not os.path.isdir(args.dir):
+        print(f"Playlist directory not found: {args.dir}", file=sys.stderr)
+        return 1
 
-    report = {
-        "run_at": run_at,
-        "playlist_dir": playlist_dir,
-        "git_commit": None,
-        "results": [],
-    }
+    files = find_playlist_files(args.dir)
+    print(f"Found {len(files)} files to scan in '{args.dir}'.")
 
-    # try to get current commit sha if available
-    try:
-        import subprocess
-
-        sha = subprocess.check_output(["git", "rev-parse", "HEAD"], stderr=subprocess.DEVNULL).strip().decode()
-        report["git_commit"] = sha
-    except Exception:
-        report["git_commit"] = None
-
-    if not os.path.isdir(playlist_dir):
-        print(f"Playlist directory not found: {playlist_dir}", file=sys.stderr)
-        os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as outf:
-            json.dump({**report, "error": f"playlist directory not found: {playlist_dir}"}, outf, ensure_ascii=False, indent=2)
-        print(f"Wrote report to {output_path}")
-        return 0
-
-    files = find_playlist_files(playlist_dir)
-    if not files:
-        print(f"No files found in {playlist_dir}", file=sys.stderr)
-
-    for path in files:
-        entry = {"playlist_file": path, "scanned_at": datetime.now(timezone.utc).isoformat(), "urls": [], "file_error": None}
-        extract = extract_urls_from_file(path)
-        if extract.get("error"):
-            entry["file_error"] = extract["error"]
-            report["results"].append(entry)
+    all_urls = set()
+    for i, path in enumerate(files):
+        print(f"[{i+1}/{len(files)}] Scanning: {path}")
+        urls, err = extract_urls_from_file(path)
+        if err:
+            print(f"  -> Skipping file due to error: {err}")
             continue
+        all_urls.update(urls)
 
-        urls = extract.get("urls", [])
-        # keep unique and preserve order
-        seen = set()
-        uniq_urls = []
-        for u in urls:
-            if u not in seen:
-                seen.add(u)
-                uniq_urls.append(u)
+    unique_urls = sorted(list(all_urls))
+    total_urls = len(unique_urls)
+    print(f"\nFound {total_urls} unique URLs to test.\n")
 
-        for url in uniq_urls:
-            if not urlparse(url).scheme.startswith("http"):
-                continue
-            res = test_url(url, timeout=timeout)
-            entry["urls"].append(res)
-            # small sleep to avoid hammering (tweakable)
-            time.sleep(0.1)
+    working_count = 0
+    for i, url in enumerate(unique_urls):
+        status = "WORKING" if test_url(url, timeout=args.timeout) else "FAILED"
+        if status == "WORKING":
+            working_count += 1
+        print(f"[{i+1}/{total_urls}] {status}: {url[:100]}{'...' if len(url) > 100 else ''}")
+        time.sleep(0.1) # Small delay to be polite
 
-        report["results"].append(entry)
+    failed_count = total_urls - working_count
+    success_rate = (working_count / total_urls) * 100 if total_urls > 0 else 0
+    end_time = datetime.now(timezone.utc)
+    duration_seconds = (end_time - start_time).total_seconds()
 
-    # Ensure parent dir exists
-    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as outf:
-        json.dump(report, outf, ensure_ascii=False, indent=2)
+    summary_content = (
+        f"Playlist Test Summary\n"
+        f"---------------------\n"
+        f"Test completed at: {end_time.strftime('%Y-%m-%d %H:%M:%S UTC')}\n"
+        f"Total unique channels tested: {total_urls}\n"
+        f"Working channels: {working_count}\n"
+        f"Failing channels: {failed_count}\n"
+        f"Success rate: {success_rate:.2f}%\n"
+        f"Total test duration: {duration_seconds:.2f} seconds\n"
+    )
 
-    print(f"Wrote report to {output_path}")
+    print("\n" + summary_content)
+
+    os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
+    with open(args.output, "w", encoding="utf-8") as f:
+        f.write(summary_content)
+
+    print(f"Summary report saved to {args.output}")
     return 0
 
 
