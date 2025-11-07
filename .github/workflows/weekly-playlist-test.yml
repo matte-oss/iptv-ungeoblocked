@@ -35,20 +35,18 @@ jobs:
       - name: Set up report filename
         id: set_filename
         run: |
-          # Format is HH:MM-DD-MM-YYYY. Using periods for HH.MM to avoid issues with colons in filenames.
-          FILENAME="reports/playlist-test-$(date -u +'%H.%M-%d-%m-%Y').txt"
+          # New filename format: report_YYYY-MM-DD_HH-MM-SS.txt
+          FILENAME="reports/report_$(date -u +'%Y-%m-%d_%H-%M-%S').txt"
           echo "report_file=${FILENAME}" >> $GITHUB_OUTPUT
 
       - name: Run playlist tests
         id: run_tests
         env:
           PLAYLIST_DIR: countries
-          # Get the generated filename from the previous step
           REPORT_FILE: ${{ steps.set_filename.outputs.report_file }}
         run: |
           mkdir -p reports
           python .github/scripts/test_playlists.py --dir "${PLAYLIST_DIR}" --output "${REPORT_FILE}"
-          # The script itself will print the summary to the log
           
       - name: Commit and push report
         if: always()
