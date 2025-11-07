@@ -1,8 +1,0 @@
-Playlist Test Summary
----------------------
-Test completed at: 2025-11-07 16:16:01 UTC
-Total unique channels tested: 127
-Working channels: 107
-Failing channels: 20
-Success rate: 84.25%
-Total test duration: 190.52 seconds
