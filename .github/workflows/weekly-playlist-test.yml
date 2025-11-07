@@ -1,0 +1,56 @@
+name: Weekly playlist test
+
+on:
+  schedule:
+    # Runs every Sunday at 00:00 UTC (adjust cron if you want a different time/day)
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test_playlists:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONUNBUFFERED: 1
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run playlist tests
+        id: run_tests
+        env:
+          # Use the 'countries' directory for playlists
+          PLAYLIST_DIR: countries
+          REPORT_FILE: reports/playlist-test-${{ github.run_id }}-${{ github.run_number }}.json
+        run: |
+          mkdir -p reports
+          python .github/scripts/test_playlists.py --dir "${PLAYLIST_DIR}" --output "${REPORT_FILE}"
+          echo "report_file=${REPORT_FILE}" >> $GITHUB_OUTPUT
+
+      - name: Commit and push report
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REPORT_FILE="${{ steps.run_tests.outputs.report_file }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${REPORT_FILE}" || true
+          git commit -m "Add weekly playlist test report: ${REPORT_FILE}" || echo "No changes to commit"
+          git push origin HEAD:refs/heads/${{ github.ref_name }} || echo "Push failed"
