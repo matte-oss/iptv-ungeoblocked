@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
 Scan playlist files in a directory for http(s) URLs, test each URL,
-and write a simple text summary report.
+and write a comprehensive text summary report including a list of failing URLs with debug info.
 
 Usage:
   python .github/scripts/test_playlists.py --dir countries --output reports/summary.txt
 """
 
 import argparse
-import json
 import os
 import re
 import sys
@@ -26,14 +25,13 @@ def find_playlist_files(directory):
     files = []
     for root, _, filenames in os.walk(directory):
         for fn in filenames:
-            # Simple check for any text-based file, can be refined if needed
             if not fn.startswith("."):
                 files.append(os.path.join(root, fn))
     return sorted(files)
 
 
 def extract_urls_from_file(path):
-    urls = set()  # Use a set for automatic deduplication
+    urls = set()
     try:
         with open(path, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
@@ -46,23 +44,40 @@ def extract_urls_from_file(path):
 
 
 def test_url(url, timeout=DEFAULT_TIMEOUT):
+    """
+    Tests a URL and returns a tuple: (is_ok: bool, reason: str).
+    """
     headers = {"User-Agent": "iptv-ungeoblocked-playlist-tester/1.0 (+https://github.com/matte-oss/iptv-ungeoblocked)"}
     try:
-        # Try HEAD first (faster when supported)
+        # Try HEAD first (faster when supported).
         with requests.head(url, allow_redirects=True, timeout=timeout, headers=headers) as r:
             if r.status_code < 400:
-                return True
-        # Fallback to GET if HEAD fails or is disallowed
+                return True, f"OK (HEAD: {r.status_code})"
+            # If HEAD gives a client/server error, we'll fall through to GET, 
+            # as some servers block HEAD requests.
+        
+        # Fallback to GET if HEAD failed or was disallowed.
         with requests.get(url, allow_redirects=True, timeout=timeout, headers=headers, stream=True) as r:
-            return r.status_code < 400
-    except requests.exceptions.RequestException:
-        return False
-    except Exception:
-        return False
+            if r.status_code < 400:
+                return True, f"OK (GET: {r.status_code})"
+            else:
+                # Request succeeded, but the server returned an error status code.
+                return False, f"HTTP {r.status_code} {r.reason}"
+
+    except requests.exceptions.Timeout:
+        return False, "Timeout"
+    except requests.exceptions.ConnectionError:
+        return False, "Connection Error"
+    except requests.exceptions.RequestException as e:
+        # Catch other broad request-related errors.
+        return False, f"Request Error ({type(e).__name__})"
+    except Exception as e:
+        # Catch any other unexpected errors.
+        return False, f"Unexpected Error ({type(e).__name__})"
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Test playlists and save a summary report.")
+    parser = argparse.ArgumentParser(description="Test playlists and save a comprehensive summary report.")
     parser.add_argument("--dir", "-d", default="playlists", help="Directory containing playlist files")
     parser.add_argument("--output", "-o", required=True, help="Output summary report file path (.txt)")
     parser.add_argument("--timeout", "-t", type=int, default=DEFAULT_TIMEOUT, help="Timeout per request (s)")
@@ -91,12 +106,18 @@ def main():
     print(f"\nFound {total_urls} unique URLs to test.\n")
 
     working_count = 0
+    failing_streams = []  # List to store tuples of (url, reason)
     for i, url in enumerate(unique_urls):
-        status = "WORKING" if test_url(url, timeout=args.timeout) else "FAILED"
-        if status == "WORKING":
+        is_working, reason = test_url(url, timeout=args.timeout)
+        status = "WORKING" if is_working else "FAILED"
+
+        if is_working:
             working_count += 1
-        print(f"[{i+1}/{total_urls}] {status}: {url[:100]}{'...' if len(url) > 100 else ''}")
-        time.sleep(0.1) # Small delay to be polite
+        else:
+            failing_streams.append((url, reason))  # Add failing URL and its reason
+
+        print(f"[{i+1}/{total_urls}] {status} ({reason}): {url[:80]}{'...' if len(url) > 80 else ''}")
+        time.sleep(0.1)
 
     failed_count = total_urls - working_count
     success_rate = (working_count / total_urls) * 100 if total_urls > 0 else 0
@@ -113,14 +134,22 @@ def main():
         f"Success rate: {success_rate:.2f}%\n"
         f"Total test duration: {duration_seconds:.2f} seconds\n"
     )
-
-    print("\n" + summary_content)
+    
+    if failing_streams:
+        failing_list_content = "\n\nFailing Channels List (with Debug Info)\n----------------------------------------\n"
+        # Format each line with the URL and the reason for failure
+        failing_list_content += "\n".join([f"{url}  --  [{reason}]" for url, reason in failing_streams])
+        summary_content += failing_list_content
 
     os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(summary_content)
 
-    print(f"Summary report saved to {args.output}")
+    print("\n--- Report Summary ---")
+    print(summary_content.split('\n\n')[0])
+    print("----------------------")
+    print(f"Comprehensive report with {len(failing_streams)} failing streams and debug info saved to {args.output}")
+
     return 0
 
 
