@@ -14,8 +14,7 @@ from urllib.parse import urlparse
 
 import requests
 
-# CORRECTED: The ')' character has been removed from the negated set to allow it within URLs.
-URL_RE = re.compile(r"https?://[^\s'\",>\]]+")
+URL_RE = re.compile(r"https?://[^\s()\"',>\[\]]+")
 DEFAULT_TIMEOUT = 10  # seconds
 
 
@@ -42,11 +41,24 @@ def extract_urls_from_file(path):
 
 
 def test_url(url, timeout=DEFAULT_TIMEOUT):
+    """
+    Tests a URL and returns a tuple: (is_ok: bool, reason: str).
+    It tries a HEAD request first and falls back to a GET request if needed.
+    """
     headers = {"User-Agent": "iptv-ungeoblocked-playlist-tester/1.0 (+https://github.com/matte-oss/iptv-ungeoblocked)"}
+
+    # --- CORRECTED LOGIC: Try HEAD first, but don't let it kill the whole function ---
     try:
         with requests.head(url, allow_redirects=True, timeout=timeout, headers=headers) as r:
             if r.status_code < 400:
                 return True, f"OK (HEAD: {r.status_code})"
+            # If status is >= 400, we don't return, we let it fall through to the GET request.
+    except requests.exceptions.RequestException:
+        # Ignore exceptions from HEAD (like Timeout/ConnectionError) and fall through to GET.
+        pass
+
+    # --- Fallback to GET request ---
+    try:
         with requests.get(url, allow_redirects=True, timeout=timeout, headers=headers, stream=True) as r:
             if r.status_code < 400:
                 return True, f"OK (GET: {r.status_code})"
@@ -90,6 +102,9 @@ def main():
     unique_urls = sorted(list(all_urls))
     total_urls = len(unique_urls)
     print(f"\nFound {total_urls} unique URLs to test.\n")
+    if total_urls == 0:
+        print("No URLs found. Exiting.")
+        return 0
 
     working_count = 0
     failing_streams = []
@@ -103,4 +118,55 @@ def main():
         print(f"[{i+1}/{total_urls}] {status} ({reason}): {url[:80]}{'...' if len(url) > 80 else ''}")
         time.sleep(0.1)
 
-    failed_count
+    failed_count = total_urls - working_count
+    success_rate = (working_count / total_urls) * 100 if total_urls > 0 else 0
+    end_time = datetime.now(timezone.utc)
+    duration_seconds = (end_time - start_time).total_seconds()
+
+    summary_content = (
+        f"Playlist Test Summary\n---------------------\n"
+        f"Test completed at: {end_time.strftime('%Y-%m-%d %H:%M:%S UTC')}\n"
+        f"Total unique channels tested: {total_urls}\n"
+        f"Working channels: {working_count}\n"
+        f"Failing channels: {failed_count}\n"
+        f"Success rate: {success_rate:.2f}%\n"
+        f"Total test duration: {duration_seconds:.2f} seconds\n"
+    )
+    if failing_streams:
+        failing_list_content = "\n\nFailing Channels List (with Debug Info)\n----------------------------------------\n"
+        failing_list_content += "\n".join([f"{url}  --  [{reason}]" for url, reason in failing_streams])
+        summary_content += failing_list_content
+
+    os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
+    with open(args.output, "w", encoding="utf-8") as f:
+        f.write(summary_content)
+
+    if total_urls > 0:
+        if success_rate >= 90:
+            color = "success"
+        elif success_rate >= 70:
+            color = "yellow"
+        else:
+            color = "critical"
+        
+        badge_data = {
+            "schemaVersion": 1,
+            "label": "channels",
+            "message": f"{working_count}/{total_urls} working",
+            "color": color,
+        }
+        with open(args.badge_output, "w", encoding="utf-8") as f:
+            json.dump(badge_data, f, indent=2)
+
+    print("\n--- Report Summary ---")
+    print(summary_content.split('\n\n')[0])
+    print("----------------------")
+    print(f"Comprehensive report saved to {args.output}")
+    if total_urls > 0:
+        print(f"Badge data saved to {args.badge_output}")
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
