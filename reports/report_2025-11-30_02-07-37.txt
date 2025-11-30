@@ -1,0 +1,31 @@
+Playlist Test Summary
+---------------------
+Test completed at: 2025-11-30 02:12:21 UTC
+Total unique channels tested: 127
+Working channels: 108
+Failing channels: 19
+Success rate: 85.04%
+Total test duration: 283.92 seconds
+
+
+Failing Channels List (with Debug Info)
+----------------------------------------
+http://185.189.225.149/fdf/index.m3u8  --  [Timeout]
+http://185.189.225.149/mega/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/Antena3HD/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/CuatroHD/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/LaSexta/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/TeleCincoHD/index.m3u8  --  [Timeout]
+http://185.189.225.157/BOING/index.m3u8  --  [Timeout]
+http://185.189.225.157/neox/index.m3u8  --  [Timeout]
+http://185.189.225.157/nova/index.m3u8  --  [Timeout]
+https://jmp2.uk/plu-5fb5836fe745b600070fc743.m3u8  --  [HTTP 404 Not Found]
+https://jmp2.uk/plu-5fb5844bf5514d0007945bda.m3u8  --  [HTTP 404 Not Found]
+https://live-manifest.production-public.tubi.io/live/01404def-10a0-46f6-9e01-4919814910c0/playlist.m3u8  --  [HTTP 404 Not Found]
+https://live-manifest.production-public.tubi.io/live/0eb2936b-c81d-4890-a5a6-e4b332f5a950/playlist.m3u8  --  [HTTP 404 Not Found]
+https://liveturner.akamaized.net/75a4d1a90e744fa5b9901a1853d2c47f/eu-central-1/6284318116001/profile_0/chunklist.m3u8  --  [HTTP 403 Forbidden]
+https://liveturner.akamaized.net/95b0be1a00834dd2b81c021bc5a35b9c/eu-central-1/6284318116001/profile_0/chunklist.m3u8  --  [HTTP 403 Forbidden]
+https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8  --  [HTTP 509 <none>]
+https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8  --  [HTTP 509 <none>]
+https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c_output_0.m3u8  --  [HTTP 509 <none>]
+https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8  --  [HTTP 509 <none>]
