@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "channels",
-  "message": "109/127 working",
-  "color": "yellow"
+  "message": "50/127 working",
+  "color": "critical"
 }
