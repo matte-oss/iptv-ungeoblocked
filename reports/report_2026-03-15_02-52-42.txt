@@ -1,0 +1,35 @@
+Playlist Test Summary
+---------------------
+Test completed at: 2026-03-15 02:57:45 UTC
+Total unique channels tested: 127
+Working channels: 104
+Failing channels: 23
+Success rate: 81.89%
+Total test duration: 303.18 seconds
+
+
+Failing Channels List (with Debug Info)
+----------------------------------------
+http://185.189.225.149/fdf/index.m3u8  --  [Timeout]
+http://185.189.225.149/mega/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/Antena3HD/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/CuatroHD/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/LaSexta/index.m3u8  --  [Timeout]
+http://185.189.225.150:85/TeleCincoHD/index.m3u8  --  [Timeout]
+http://185.189.225.157/BOING/index.m3u8  --  [Timeout]
+http://185.189.225.157/neox/index.m3u8  --  [Timeout]
+http://185.189.225.157/nova/index.m3u8  --  [Timeout]
+http://92.118.251.84:8080/UTV/index.m3u8  --  [Timeout]
+https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8  --  [HTTP 403 Forbidden]
+https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8  --  [Connection Error]
+https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8  --  [HTTP 404 Not Found]
+https://d32rw80ytx9uxs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vlldndmow4yre/24HES.m3u8  --  [Connection Error]
+https://d4g9wh8d4wiaw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-crbrakk0yedqb/La2ES.m3u8  --  [Connection Error]
+https://dum8zv1rbdjj2.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x6uutpgph4tpt/ClanES.m3u8  --  [Connection Error]
+https://dvrfl04.tulix.tv/teleup-bbca/index.m3u8  --  [HTTP 403 Forbidden]
+https://jmp2.uk/plu-5fb5836fe745b600070fc743.m3u8  --  [HTTP 404 Not Found]
+https://jmp2.uk/plu-5fb5844bf5514d0007945bda.m3u8  --  [HTTP 404 Not Found]
+https://live-manifest.production-public.tubi.io/live/01404def-10a0-46f6-9e01-4919814910c0/playlist.m3u8  --  [HTTP 404 Not Found]
+https://live-manifest.production-public.tubi.io/live/0eb2936b-c81d-4890-a5a6-e4b332f5a950/playlist.m3u8  --  [HTTP 404 Not Found]
+https://liveturner.akamaized.net/75a4d1a90e744fa5b9901a1853d2c47f/eu-central-1/6284318116001/profile_0/chunklist.m3u8  --  [HTTP 403 Forbidden]
+https://liveturner.akamaized.net/95b0be1a00834dd2b81c021bc5a35b9c/eu-central-1/6284318116001/profile_0/chunklist.m3u8  --  [HTTP 403 Forbidden]
