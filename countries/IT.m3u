@@ -21,7 +21,7 @@ https://hls.live2.meride.tv/hls/live/2028947/pu934tjb/playlist.m3u8
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 tvg-id="RTL.102.5.HD.it" tvg-name="RTL 102.5 TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RTL_102.5_logo.svg/1280px-RTL_102.5_logo.svg.png",RTL 102.5 TV
 https://streamcdnl1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
-#EXTINF:-1 tvg-id="Boing.it" tvg-name="Boing" tvg-logo="https://upload.wikimedia.org/wikipedia/it/b/b2/Boing_logo_2020.png",Boing
+#EXTINF:-1 tvg-id="Boing.it" tvg-name="Boing" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Boing_2020.png",Boing
 https://liveturner.akamaized.net/75a4d1a90e744fa5b9901a1853d2c47f/eu-central-1/6284318116001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="Rai.Gulp.it" tvg-name="Rai Gulp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1280px-Rai_Gulp_-_Logo_2017.svg.png",Rai Gulp
 https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8
